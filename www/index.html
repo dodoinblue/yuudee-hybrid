@@ -20,15 +20,69 @@
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
+    <script src="components/yd-card/yd-card.js"></script>
   </head>
-  <body ng-app="starter">
+  <body ng-app="yuudee">
+    <ion-pane id="app-background">
+      <div id="app-logo" class="row">
+        <div class="col col-33 col-offset-33">
+          <img src="img/yuudee_logo.svg" />
+        </div>
+      </div>
 
-    <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title">Ionic Blank Starter</h1>
-      </ion-header-bar>
-      <ion-content>
-      </ion-content>
+      <!-- where the initial view template will be rendered -->
+      <ion-nav-view>
+        <ion-content scroll="false">
+          <ion-slide-box on-slide-changed="slideHasChanged($index)" show-pager="false" class="full-height">
+            <ion-slide class="full-height align-center-vertical">
+              <div class="row">
+                <div class="col col-50">
+                  <yd-card title="card 1"></yd-card>
+                </div>
+                <div class="col col-50">
+                  <yd-card title="card 2"></yd-card>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-50">
+                  <yd-card title="card 3"></yd-card>
+                </div>
+                <div class="col col-50">
+                  <yd-card title="card 4"></yd-card>
+                </div>
+              </div>
+            </ion-slide>
+            <ion-slide class="full-height align-center-vertical">
+              <div class="row">
+                <div class="col col-50">
+                  <yd-card title="card 5"></yd-card>
+                </div>
+                <div class="col col-50">
+                  <yd-card title="card 6"></yd-card>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-50">
+                  <yd-card title="card 7"></yd-card>
+                </div>
+                <div class="col col-50">
+
+                </div>
+              </div>
+            </ion-slide>
+            <ion-slide>
+
+            </ion-slide>
+          </ion-slide-box>
+        </ion-content>
+
+      </ion-nav-view>
     </ion-pane>
+    <!-- The nav bar that will be updated as we navigate -->
+    <!--<ion-nav-bar class="nav-title-slide-ios7 bar-light transparent-nav"-->
+                 <!--style="background: none; border-bottom: none">-->
+      <!--<ion-nav-back-button>-->
+      <!--</ion-nav-back-button>-->
+    <!--</ion-nav-bar>-->
   </body>
 </html>
