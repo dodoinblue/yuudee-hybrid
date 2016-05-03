@@ -35,4 +35,6 @@
   padding: 0 !important;
 }
 
-
+.transparent-bg {
+  background: transparent;
+}
