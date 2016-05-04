@@ -12,12 +12,16 @@ ydRoutes.config(['$stateProvider', '$urlRouterProvider',
 
     $stateProvider
     // app states
+
+      // this page is for display cards & rearrange cards (including changing effects)
       .state('display', {
         url: '/display',
         templateUrl: 'templates/card-display.html'
       })
-      .state('edit',{
-        url: '/display',
-        templateUrl: 'templates/card-edit.html'
+
+      // This page handles the creation/edition of cards and card categories
+      .state('resource', {
+        url: '/resource',
+        templateUrl: 'templates/card-resource.html'
       });
   }]);
