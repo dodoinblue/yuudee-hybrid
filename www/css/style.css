@@ -38,3 +38,28 @@
 .transparent-bg {
   background: transparent;
 }
+
+/* Settings Layer */
+#app-settings-header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background: red;
+  opacity: 0.3;
+}
+
+.yd-button,
+.yd-button:before{
+  font-size:10px !important;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 0px;
+  background-image: url("../img/button.png");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+
+  border-image: url("../img/button.png") 20 20 20 32 repeat;
+
+}
