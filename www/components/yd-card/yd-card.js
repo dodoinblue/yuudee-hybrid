@@ -6,7 +6,7 @@
 var ydCardDirective = angular.module('ydCardDirective', []);
 
 ydCardDirective.directive('ydCard', [
-  function ($rootScope) {
+  function () {
   return {
     restrict: 'AE',
     scope: true,

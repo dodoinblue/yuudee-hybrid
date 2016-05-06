@@ -45,8 +45,6 @@
   top: 0px;
   left: 0px;
   right: 0px;
-  background: red;
-  opacity: 0.3;
 }
 
 #app-settings-footer {
@@ -54,8 +52,6 @@
   bottom: 0px;
   left: 0px;
   right: 0px;
-  background: red;
-  opacity: 0.3;
 }
 
 .yd-button {

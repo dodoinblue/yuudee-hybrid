@@ -6,7 +6,8 @@
 var yuudee = angular.module('yuudee', ['ionic',
   'ydCardDirective',
   'ydRoutes',
-  'ydCardDisplayCtrl']);
+  'ydCardDisplayCtrl',
+  'ydCardResourceCtrl']);
 
 yuudee.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {

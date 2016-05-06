@@ -1,7 +1,7 @@
 <ion-content scroll="false" class="no-padding transparent-bg" ng-controller="ydCardDisplayCtrl">
-  <div id="app-logo" class="row" ng-click="enterEditMode()">
+  <div id="app-logo" class="row">
     <div class="col col-33 col-offset-33">
-      <img src="img/yuudee_logo.svg" />
+      <img src="img/yuudee_logo.svg" ng-click="enterEditMode()" />
     </div>
   </div>
   <ion-slide-box on-slide-changed="slideHasChanged($index)" show-pager="false" class="full-height">
@@ -50,10 +50,16 @@
         <div class="yd-button" ng-click="exitEditMode()">结束编辑</div>
       </div>
       <div class="col col-50">
-        <div class="yd-button">课程标题</div>
+        <div class="yd-button">
+          <select>
+            <option selected>课程标题</option>
+            <option>课程2</option>
+            <option>课程3</option>
+          </select>
+        </div>
       </div>
       <div class="col col-25">
-        <div class="yd-button">素材库</div>
+        <div class="yd-button" ng-click="goToResource()">素材库</div>
       </div>
     </div>
   </div>
