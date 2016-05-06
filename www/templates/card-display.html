@@ -1,5 +1,5 @@
-<ion-content scroll="false" class="no-padding transparent-bg">
-  <div id="app-logo" class="row">
+<ion-content scroll="false" class="no-padding transparent-bg" ng-controller="ydCardDisplayCtrl">
+  <div id="app-logo" class="row" ng-click="enterEditMode()">
     <div class="col col-33 col-offset-33">
       <img src="img/yuudee_logo.svg" />
     </div>
@@ -42,5 +42,29 @@
       </div>
     </ion-slide>
   </ion-slide-box>
+
+  <!-- settings layer -->
+  <div id="app-settings-header" ng-show="isEditMode">
+    <div class="row align-center">
+      <div class="col col-25">
+        <div class="yd-button" ng-click="exitEditMode()">结束编辑</div>
+      </div>
+      <div class="col col-50">
+        <div class="yd-button">课程标题</div>
+      </div>
+      <div class="col col-25">
+        <div class="yd-button">素材库</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="app-settings-footer" class="row row-bottom align-center" ng-show="isEditMode">
+    <div class="col col-25">
+      <div class="yd-button">新建</div>
+    </div>
+    <div class="col col-25 col-offset-50">
+      <div class="yd-button">设置</div>
+    </div>
+  </div>
 </ion-content>
 

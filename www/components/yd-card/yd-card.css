@@ -42,4 +42,13 @@
   font-size: 1.2em;
   z-index: 10;
 }
+
+.yd-card .card-edit-button {
+  max-width: 30%;
+  content: url("../../img/edit.png");
+  position: absolute;
+  top: -5%;
+  right: 0%;
+  bottom: 80%;
+}
 /* ######## End of Card ######## */

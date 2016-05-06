@@ -11,8 +11,8 @@
 
 #app-logo img {
   max-width:100%;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .no-padding {
@@ -37,4 +37,39 @@
 
 .transparent-bg {
   background: transparent;
+}
+
+/* Settings Layer */
+#app-settings-header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background: red;
+  opacity: 0.3;
+}
+
+#app-settings-footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: red;
+  opacity: 0.3;
+}
+
+.yd-button {
+  border-radius: 5px;
+  background: url("../img/button-raw.png");
+  border-style: solid;
+  border-color: rgb(105,61,34);
+  border-width: 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: rgb(230,220,210);
+  font-weight: bold;
 }

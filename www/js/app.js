@@ -5,7 +5,8 @@
 // the 2nd parameter is an array of 'requires'
 var yuudee = angular.module('yuudee', ['ionic',
   'ydCardDirective',
-  'ydRoutes']);
+  'ydRoutes',
+  'ydCardDisplayCtrl']);
 
 yuudee.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
