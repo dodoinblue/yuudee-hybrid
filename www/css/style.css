@@ -9,10 +9,17 @@
   margin: 0px;
 }
 
+#app-logo {
+  height: 18%;
+  padding: 5% 0 0 0;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+/* Should find out why height settings are not working.
+   Should limit the height otherwise layout would be messy on 4:3 ratio devices */
 #app-logo img {
-  max-width:100%;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  max-width:80%;
 }
 
 .no-padding {
@@ -68,4 +75,24 @@
   padding-bottom: 0.5em;
   color: rgb(230,220,210);
   font-weight: bold;
+}
+
+/* Drawer Layer */
+.drawer-container {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  background: url("../img/child_incat_woodbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 15%;
+}
+
+.drawer-back {
+  position: absolute;
+  content: url("../img/child_incat_backbutton.png");
+  height: 12%;
+  top: -10%;
+  left: 5%;
 }
