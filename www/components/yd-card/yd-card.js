@@ -14,6 +14,7 @@ ydCardDirective.directive('ydCard', [
 
     link: function (scope, el, attrs) {
       scope.title = attrs.title;
+      scope.image = attrs.image;
       scope.onCardClick = function() {
         console.log(scope.title + " Card is clicked.")
       };

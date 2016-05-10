@@ -3,7 +3,7 @@
     <img src="../img/card_bg.png">
   </div>
   <div class="card-content">
-    <img src="../img/dummy_content.jpg">
+    <img ng-src="{{image}}">
   </div>
   <div class="card-text"><span>{{title}}</span></div>
   <div class="card-edit-button" ng-show="isEditMode" ng-click="onEditClick();$event.stopPropagation();"></div>

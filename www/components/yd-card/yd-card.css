@@ -7,11 +7,10 @@
 
 .yd-card img {
   max-width: 100%;
-
 }
 
-.yd-card .card-frame {
-  z-index: 10;
+.yd-cardd-card .card-frame {
+  z-index: 100;
 }
 
 /*
