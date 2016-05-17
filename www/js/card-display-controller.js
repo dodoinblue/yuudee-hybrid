@@ -31,6 +31,15 @@ ydCardDisplayCtrl.controller('ydCardDisplayCtrl', ['$scope', '$state', '$ionicHi
     $scope.col=2;
 
     $scope.cards = sortCards(generateCards(11), $scope.row, $scope.col);
+
+    // Test code here. To be removed.
+    $scope.clicked = false;
+    $scope.testClick = function () {
+      $scope.clicked = !$scope.clicked;
+      TweenLite.from(".drawer", 2, {x:'110%'});
+    }
+
+
   }]);
 
 /*

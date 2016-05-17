@@ -1,0 +1,98 @@
+<style>
+  .drawer {
+    max-width: 885px; /* actual img width */
+    max-height: 810px; /* actual img height */
+    /**height: 810px; !* actual img height - IE7 *!*/
+    background-image: url("../img/child_incat_woodbg.png");
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    left:-10%;
+    top:20%;
+    right: 0%;
+  }
+  .drawer:after {
+    content: " ";
+    display: block;
+    width: 100%;
+    padding-top: 91.52%; /* 885:810 ratio */
+  }
+  .drawer-content {
+    margin-top: 2.72%;
+    margin-left:10%;
+    margin-bottom: 4.57%;
+    margin-right: 0%;
+    position: absolute;
+  }
+  .duration {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+  }
+
+  @keyframes enlarge {
+    100% {
+      -webkit-transform: scale3d(1,1,1) translate3d(25%, 0, 0);
+      transform: scale3d(1,1,1) translate3d(25%, 0, 0);
+    }
+  }
+  @-webkit-keyframes enlarge {
+    100% {
+      -webkit-transform: scale3d(1,1,1) translate3d(25%, 0, 0);
+      transform: scale3d(2, 2, 2) translate3d(25%, 0, 0);
+    }
+  }
+  .enlarge {
+    -webkit-animation-name: enlarge;
+    animation-name: enlarge;
+    animation-delay: 1s;
+  }
+
+  .enlarge2 {
+     position:relative;
+     max-width: 100%;
+     margin:0;
+
+     -moz-transition:all 2s;
+     -webkit-transition:all 2s;
+     -o-transition:all 2s;
+     transition:all 2s;
+   }
+
+  .enlarge2:hover {
+    position:absolute;
+    top:5%;
+    left:5%;
+    right: 5%;
+    margin:0;
+    z-index: 99;
+
+    -moz-transition:all 2s;
+    -webkit-transition:all 2s;
+    -o-transition:all 2s;
+    transition:all 2s;
+  }
+</style>
+
+<!--Try back button here...-->
+<div class="button button-block button-calm" ng-click="testClick()">Click Me</div>
+<!--<div ng-class="{'drawer animated slideInRight': clicked}" ng-show="clicked">-->
+<div class="drawer" ng-show="clicked">
+  <div class="drawer-content">
+    <div class="row" style="padding: 0px">
+      <div class="col col-50">
+        <yd-card title="card 1" image="../img/dummy_content.jpg"></yd-card>
+      </div>
+      <div class="col col-50">
+        <yd-card title="card 2" image="../img/dummy_content.jpg"></yd-card>
+      </div>
+    </div>
+    <div class="row" style="padding: 0px">
+      <div class="col col-50">
+        <yd-card title="card 3" image="../img/dummy_content.jpg"></yd-card>
+      </div>
+      <div class="col col-50">
+        <yd-card title="card 4" image="../img/dummy_content.jpg"></yd-card>
+      </div>
+    </div>
+  </div>
+</div>

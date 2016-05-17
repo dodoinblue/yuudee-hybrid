@@ -8,7 +8,7 @@ var ydRoutes = angular.module('ydRoutes', []);
 ydRoutes.config(['$stateProvider', '$urlRouterProvider',
   function($stateProvider, $urlRouterProvider) {
     // url routes/states
-    $urlRouterProvider.otherwise('/display');
+    $urlRouterProvider.otherwise('/drawer');
 
     $stateProvider
     // app states
@@ -23,5 +23,12 @@ ydRoutes.config(['$stateProvider', '$urlRouterProvider',
       .state('resource', {
         url: '/resource',
         templateUrl: 'templates/card-resource.html'
+      })
+
+      // Temporary
+      .state('drawer', {
+        url: '/drawer',
+        controller: 'ydCardDisplayCtrl',
+        templateUrl: 'templates/card-drawer.html'
       });
   }]);
