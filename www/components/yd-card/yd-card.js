@@ -5,8 +5,9 @@
 /* Yuudee Card Directive */
 var ydCardDirective = angular.module('ydCardDirective', []);
 
-ydCardDirective.directive('ydCard', ['$window', 'ydCardService',
-  function ($window, ydCardService) {
+ydCardDirective.directive('ydCard', ['$window', 'ydCardService', '$interval', '$timeout',
+
+  function ($window, ydCardService, $interval, $timeout) {
     var w = angular.element($window)[0];
     // console.log('window size: ', w.innerWidth, ' x ', w.innerHeight);
 
@@ -82,7 +83,25 @@ ydCardDirective.directive('ydCard', ['$window', 'ydCardService',
       var isPlaying = false;
       var onCompleteHandler = function () {
         console.log("complete");
-        animation.reverse();
+        var slideshow = imageSlideshow();
+
+        $timeout(function(){
+          animation.reverse();
+          $interval.cancel(slideshow);
+          $scope.image = images[0];
+        }, 3000);
+        // animation.reverse();
+      };
+
+      var imageSlideshow = function () {
+        var i = 1;
+        return $interval(function(){
+          $scope.image = images[i];
+          i ++;
+          if (i === images.length) {
+            i = 0;
+          }
+        }, 500);
       };
 
       var onReverseCompleteHandler = function () {
@@ -92,6 +111,7 @@ ydCardDirective.directive('ydCard', ['$window', 'ydCardService',
       };
       var animation;
       $scope.onCardClick = function () {
+        console.log($scope);
         if (!animation) {
           animation = buildAnimation(w.innerWidth, w.innerHeight, $element[0].parentElement,
             onCompleteHandler, onReverseCompleteHandler);
