@@ -10,7 +10,7 @@
       <ion-slide class="full-height align-center-vertical" ng-repeat="page in cards">
         <div class="row" ng-repeat="r in page">
           <div ng-class="{'col col-50': col === 2, 'col col-33': col === 3}" ng-repeat="card in r">
-            <yd-card title="{{card.title}}" image="{{card.images[0]}}"></yd-card>
+            <yd-card parent="{{card.parent}}" name="{{card.name}}"></yd-card>
           </div>
         </div>
       </ion-slide>

@@ -5,8 +5,8 @@
 /* Yuudee Card Directive */
 var ydCardDirective = angular.module('ydCardDirective', []);
 
-ydCardDirective.directive('ydCard', ['$window',
-  function ($window) {
+ydCardDirective.directive('ydCard', ['$window', 'ydCardService',
+  function ($window, ydCardService) {
     var w = angular.element($window)[0];
     // console.log('window size: ', w.innerWidth, ' x ', w.innerHeight);
 
@@ -41,10 +41,44 @@ ydCardDirective.directive('ydCard', ['$window',
     templateUrl: 'components/yd-card/yd-card.html',
 
     link: function (scope, el, attrs) {
-      scope.title = attrs.title;
-      scope.image = attrs.image;
+      scope.fileName = attrs.name;
+      scope.parentPath = attrs.parent;
     },
     controller: function($scope, $element, $attrs) {
+      $scope.card_bg_image = "../img/card_bg.png";
+      $scope.image = "../img/dummy_content.jpg";
+      $scope.title = "Loading...";
+      var images = ["../img/dummy_content.jpg"];
+      var audios = ["../card-assets/dummy_audio.mp3"];
+      var isStack = false;
+
+      $scope.$watch('fileName', function(newVal){
+        var fileName = newVal;
+
+        if (fileName.indexOf('.xydcard', fileName.length - '.xydcard'.length) !== -1) {
+          ydCardService.parseCard($scope.parentPath, fileName).then(function(card) {
+              $scope.isStack = card.isStack;
+              if(card.isStack === true) {
+                $scope.card_bg_image = "../img/cat_bg.png";
+              }
+              $scope.title = card.title;
+              audios = card.audios;
+              images = card.images;
+              $scope.image=images[0];
+          }).catch(function(error) {
+            console.log('error.');
+          });
+        } else {
+          ydCardService.parseStack($scope.parentPath, fileName).then(function(stack) {
+            $scope.isStack = true;
+            $scope.card_bg_image = "../img/cat_bg.png";
+            $scope.image=stack.cover;
+          }).catch(function(error) {
+            console.log('error.');
+          });
+        }
+      });
+
       var isPlaying = false;
       var onCompleteHandler = function () {
         console.log("complete");
@@ -58,7 +92,6 @@ ydCardDirective.directive('ydCard', ['$window',
       };
       var animation;
       $scope.onCardClick = function () {
-        console.log($scope.title + " Card is clicked.");
         if (!animation) {
           animation = buildAnimation(w.innerWidth, w.innerHeight, $element[0].parentElement,
             onCompleteHandler, onReverseCompleteHandler);

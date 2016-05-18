@@ -5,8 +5,8 @@
 
 var ydCardDisplayCtrl = angular.module('ydCardDisplayCtrl', []);
 
-ydCardDisplayCtrl.controller('ydCardDisplayCtrl', ['$scope', '$state', '$ionicHistory',
-  function ($scope, $state, $ionicHistory) {
+ydCardDisplayCtrl.controller('ydCardDisplayCtrl', ['$scope', '$state', '$ionicHistory', 'ydCardService',
+  function ($scope, $state, $ionicHistory, ydCardService) {
     $scope.isEditMode = false;
     $scope.enterEditMode = function () {
       if (!$scope.isEditMode) {
@@ -29,8 +29,16 @@ ydCardDisplayCtrl.controller('ydCardDisplayCtrl', ['$scope', '$state', '$ionicHi
 
     $scope.row=2;
     $scope.col=2;
+    $scope.cards;
 
-    $scope.cards = sortCards(generateCards(11), $scope.row, $scope.col);
+    // $scope.cards = sortCards(generateCards(11), $scope.row, $scope.col);
+    var unsortedCards;
+    ydCardService.loadAndParseCardFromPath("../card-assets/01-我需要帮助").then(function(data) {
+      unsortedCards = data;
+      $scope.cards = sortCards(unsortedCards, $scope.row, $scope.col);
+    }).catch(function(error) {
+      console.log("error occurs: ", error);
+    });
 
     // Test code here. To be removed.
     $scope.clicked = false;
@@ -38,26 +46,9 @@ ydCardDisplayCtrl.controller('ydCardDisplayCtrl', ['$scope', '$state', '$ionicHi
       $scope.clicked = !$scope.clicked;
       TweenLite.from(".drawer", 2, {x:'110%'});
     }
-
-
   }]);
 
-/*
- * Generate dummy cards for test.
- */
-var generateCards = function (count) {
-  var cards = [];
-  for (var i=0; i < count; i++) {
-    var card = {
-      title: "Card " + (i + 1),
-      stack: false,
-      images: ["../img/dummy_content.jpg"],
-      audios: []
-    };
-    cards.push(card);
-  }
-  return cards;
-};
+
 
 /* Arrange cards to pages, and row x col grid on each page
  *
