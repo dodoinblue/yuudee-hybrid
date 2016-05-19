@@ -45,6 +45,11 @@ ydCardDisplayCtrl.controller('ydCardDisplayCtrl', ['$scope', '$state', '$ionicHi
     $scope.testClick = function () {
       $scope.clicked = !$scope.clicked;
       TweenLite.from(".drawer", 2, {x:'110%'});
+    };
+
+    var tobetested = function(){
+      console.log('abc');
+      return 1;
     }
   }]);
 
