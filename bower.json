@@ -2,6 +2,10 @@
   "name": "HelloIonic",
   "private": "true",
   "devDependencies": {
-    "ionic": "driftyco/ionic-bower#1.2.4"
+    "ionic": "driftyco/ionic-bower#1.2.4",
+    "angular-mocks": "~1.5.5"
+  },
+  "dependencies": {
+    "angular-audio": "~1.7.2"
   }
 }
