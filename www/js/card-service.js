@@ -57,7 +57,7 @@ ydCardService.service('ydCardService', ['$q',
         title: card,
         isStack: false,
         images: ['../img/dummy_content.jpg'],
-        audio: ['../card-assets/dummy_audio.mp3'],
+        audios: ['../card-assets/dummy_audio.mp3'],
         seq: -1
       };
       if (card.indexOf('.xydcard', card.length - '.xydcard'.length) !== -1) { // is card
@@ -69,7 +69,7 @@ ydCardService.service('ydCardService', ['$q',
           title: title || 'dummy card',
           stack: false,
           images: [imagesPath + '1.jpg', imagesPath + '2.jpg', imagesPath + '3.jpg'],
-          audio: [audiosPath + '1.mp3'],
+          audios: [audiosPath + '1.mp3'],
           seq: seq || -1
         };
       }

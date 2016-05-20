@@ -3,11 +3,11 @@
  */
 'use strict';
 /* Yuudee Card Directive */
-var ydCardDirective = angular.module('ydCardDirective', []);
+var ydCardDirective = angular.module('ydCardDirective', ['ngAudio']);
 
-ydCardDirective.directive('ydCard', ['$window', 'ydCardService', '$interval', '$timeout',
+ydCardDirective.directive('ydCard', ['$window', 'ydCardService', '$interval', '$timeout', 'ngAudio',
 
-  function ($window, ydCardService, $interval, $timeout) {
+  function ($window, ydCardService, $interval, $timeout, ngAudio) {
     var w = angular.element($window)[0];
     // console.log('window size: ', w.innerWidth, ' x ', w.innerHeight);
 
@@ -57,16 +57,17 @@ ydCardDirective.directive('ydCard', ['$window', 'ydCardService', '$interval', '$
         var fileName = newVal;
 
         if (fileName.indexOf('.xydcard', fileName.length - '.xydcard'.length) !== -1) {
-          ydCardService.parseCard($scope.parentPath, fileName).then(function(card) {
-              $scope.isStack = card.isStack;
-              if(card.isStack === true) {
-                $scope.card_bg_image = "../img/cat_bg.png";
-              }
-              $scope.title = card.title;
-              audios = card.audios;
-              images = card.images;
-              $scope.image=images[0];
-          }).catch(function(error) {
+          ydCardService.parseCard($scope.parentPath, fileName).then(function (card) {
+            $scope.isStack = card.isStack;
+            if (card.isStack === true) {
+              $scope.card_bg_image = "../img/cat_bg.png";
+            }
+            $scope.title = card.title;
+            audios = card.audios;
+            images = card.images;
+            $scope.image = images[0];
+            $scope.sound = ngAudio.load(audios[0]);
+          }).catch(function (error) {
             console.log('error.');
           });
         } else {
@@ -84,6 +85,7 @@ ydCardDirective.directive('ydCard', ['$window', 'ydCardService', '$interval', '$
       var onCompleteHandler = function () {
         console.log("complete");
         var slideshow = imageSlideshow();
+        $scope.sound.play();
 
         $timeout(function(){
           animation.reverse();
