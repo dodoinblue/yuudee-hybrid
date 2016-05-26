@@ -5,17 +5,18 @@
     </div>
   </div>
 
-  <div class="grid-display">
-    <ion-slide-box on-slide-changed="slideHasChanged($index)" show-pager="false" class="full-height">
-      <ion-slide class="full-height align-center-vertical" ng-repeat="page in cards">
-        <div class="row" ng-repeat="r in page">
-          <div ng-class="{'col col-50': col === 2, 'col col-33': col === 3}" ng-repeat="card in r">
-            <yd-card parent="{{card.parent}}" name="{{card.name}}"></yd-card>
-          </div>
-        </div>
-      </ion-slide>
-    </ion-slide-box>
-  </div>
+  <!--<div class="grid-display">-->
+    <!--<ion-slide-box on-slide-changed="slideHasChanged($index)" show-pager="false" class="full-height">-->
+      <!--<ion-slide class="full-height align-center-vertical" ng-repeat="page in cards">-->
+        <!--<div class="row" ng-repeat="r in page">-->
+          <!--<div ng-class="{'col col-50': col === 2, 'col col-33': col === 3}" ng-repeat="card in r">-->
+            <!--<yd-card parent="{{card.parent}}" name="{{card.name}}"></yd-card>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</ion-slide>-->
+    <!--</ion-slide-box>-->
+  <!--</div>-->
+  <yd-drawer isbase="true" path="../card-assets/01-我需要帮助"></yd-drawer>
 
   <!-- settings layer -->
   <div id="app-settings-header" ng-show="isEditMode">

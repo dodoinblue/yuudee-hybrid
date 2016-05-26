@@ -1,0 +1,16 @@
+<!--<div class="button button-block button-calm" ng-click="testClick()">Click Me</div>-->
+<!--<div ng-class="{'drawer animated slideInRight': clicked}" ng-show="clicked">-->
+<div class="drawer" ng-class="{'with-background': !isbase}">
+  <div class="drawer-back" ng-show="!isbase"></div>
+  <div class="drawer-content">
+    <ion-slide-box on-slide-changed="slideHasChanged($index)" show-pager="false" class="full-height">
+      <ion-slide class="full-height align-center-vertical" ng-repeat="page in cards">
+        <div class="row" ng-repeat="r in page">
+          <div class="col" ng-class="{'col-50': col === 2, 'col-33': col === 3}" ng-repeat="card in r">
+            <yd-card parent="{{card.parent}}" name="{{card.name}}"></yd-card>
+          </div>
+        </div>
+      </ion-slide>
+    </ion-slide-box>
+  </div>
+</div>
