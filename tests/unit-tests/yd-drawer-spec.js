@@ -1,76 +1,116 @@
-describe('app test setting', function () {
-  it('should work', function () {
-    // should pass
+describe('yd-drawer directive', function () {
+  var scopeMock,
+    compileMock,
+    ydCardServiceMock;
+
+
+  beforeEach(module("templates"));
+  // beforeEach(module('../www/components/yd-drawer/yd-drawer.html'));
+
+  // http://stackoverflow.com/questions/23029502/mocking-controller-instantiation-in-angular-directive-unit-test
+  beforeEach(function () {
+    module('ydDrawer', function ($provide, $controllerProvider) {
+      $controllerProvider.register('ydDrawerCtrl', function ($scope) {
+        // Controller Mock
+        console.log("mock controller called");
+        // $scope.$watch('path', function(newVal){
+        //   console.log('path changed. ', newVal);
+        // })
+      });
+    });
+  });
+
+
+  beforeEach(angular.mock.module("ydDrawer"));
+  beforeEach(angular.mock.module("ydCardService"));
+
+
+  beforeEach(angular.mock.inject(function ($rootScope, $compile, $q) {
+    scopeMock = $rootScope.$new();
+    compileMock = $compile;
+
+    // ydCardServiceMock = {
+    //   loadAndParseCardFromPath: function () {
+    //     return $q.when([1, 2, 3, 4]);
+    //   }
+    // };
+    // spyOn(ydCardServiceMock, "loadAndParseCardFromPath").and.returnValue($q.when([1, 2, 3]));
+  }));
+
+  it('should call generate html', function () {
+    var elem = compileMock('<yd-drawer isbase="false" path="blabla/path" drawerid="1234"></yd-drawer>')(scopeMock);
+
+    scopeMock.row = 2;
+    scopeMock.col = 2;
+    scopeMock.cards = [[[{parent: 'parentdir', name: 'round-1-1-1'}, {parent: 'parentdir', name: 'round-1-1-2'}],
+      [{parent: 'parentdir', name: 'round-1-1-3'}, {parent: 'parentdir', name: 'round-1-1-4'}]],
+      [[{parent: 'parentdir', name: 'round-1-2-1'}]
+      ]];
+    scopeMock.$digest();
+    var elementOfInterest = angular.element(elem.html());
+    // var ydCardEl = elementOfInterest.find('yd-card');
+    // console.log('yd cards', ydCardEl);
+    expect(elementOfInterest.find('yd-card').length).toBe(5);
+    expect(elementOfInterest.find('ion-slide').length).toBe(2);
+    // console.log(elementOfInterest);
+    expect((elem.html().match(/parentdir/g) || []).length).toBe(5);
+    expect((elem.html().match(/round-1-1/g) || []).length).toBe(4);
+    expect((elem.html().match(/round-1-2/g) || []).length).toBe(1);
+
+    // Again. should update.
+    scopeMock.cards = [[[{parent: 'parentdir', name: 'round-2-1-1'}, {parent: 'parentdir', name: 'round-2-1-2'}],
+      [{parent: 'parentdir', name: 'round-2-1-3'}]],
+      [[{parent: 'parentdir', name: 'round-2-2-1'}]
+      ]];
+    scopeMock.$digest();
+    var elementOfInterest = angular.element(elem.html());
+    // var ydCardEl = elementOfInterest.find('yd-card');
+    // console.log('yd cards', ydCardEl);
+    expect(elementOfInterest.find('yd-card').length).toBe(4);
+    expect(elementOfInterest.find('ion-slide').length).toBe(2);
+    expect((elem.html().match(/parentdir/g) || []).length).toBe(4);
+    expect((elem.html().match(/round-2-1/g) || []).length).toBe(3);
+    expect((elem.html().match(/round-2-2/g) || []).length).toBe(1);
+    expect((elem.html().match(/round-1-1/g) || []).length).toBe(0);
   })
 });
 
-describe('ydCardDisplayCtrl', function () {
 
-  // initialize vars...
-  var controller,
-    scopeMock,
-    stateMock,
-    historyMock,
-    ydCardServiceMock;
+describe('ydDrawerCtrl', function () {
+  var scopeMock,
+    elementMock,
+    ydCardServiceMock,
+    controller;
 
-  //load module
-  beforeEach(module('ydCardDisplayCtrl'));
-
-  // instantiate the controller and mocks for every test
+  beforeEach(module('ydDrawer'));
   beforeEach(inject(function ($controller, $q, $rootScope) {
     scopeMock = $rootScope.$new();
-    stateMock = jasmine.createSpyObj('$state spy', ['go']);
-    historyMock = jasmine.createSpyObj('$ionicHistory spy', ['nextViewOptions']);
+    elementMock = jasmine.createSpyObj('$element spy', ['remove']);
     ydCardServiceMock = {
-      loadAndParseCardFromPath: function () {
-        return $q.when([1, 2, 3, 4]);
-      }
+      loadAndParseCardFromPath: jasmine.createSpy('loadAndParseCardFromPath spy').and.returnValue($q.when(['a', 'b']))
     };
 
-    spyOn(ydCardServiceMock, "loadAndParseCardFromPath").and.returnValue($q.when([1, 2, 3]));
-
-    // instantiate the Controller under test.
-    controller = $controller('ydCardDisplayCtrl', {
-        '$scope': scopeMock,
-        '$state': stateMock,
-        '$ionicHistory': historyMock,
-        'ydCardService': ydCardServiceMock
-      });
-
-    // make a $digest call for the then function to be called.
-    // http://stackoverflow.com/questions/23705051/how-do-i-mock-a-service-that-returns-promise-in-angularjs-jasmine-unit-test
-    $rootScope.$digest();
+    controller = $controller('ydDrawerCtrl', {
+      '$scope': scopeMock,
+      '$element': elementMock,
+      'ydCardService': ydCardServiceMock
+    });
   }));
 
-  it('passing means module is initialized properly.', function () {
-    // should pass
-  });
-
-  it('should have correct settings loaded in $scope', function () {
-    expect(scopeMock.row).toBe(2);
-    expect(scopeMock.col).toBe(2);
-    expect(scopeMock.isEditMode).toBe(false);
-  });
-
-  it('should call state.go to navigate to resource', function () {
-    scopeMock.goToResource();
-    expect(stateMock.go).toHaveBeenCalledWith('resource');
-  });
-
-  it('should set isEditMode to true', function () {
-    scopeMock.enterEditMode();
-    expect(scopeMock.isEditMode).toBe(true);
-  });
-
   it('should call ydCardService to get cards', function () {
-    expect(ydCardServiceMock.loadAndParseCardFromPath).toHaveBeenCalledWith("../card-assets/01-我需要帮助");
+    scopeMock.path = 'abcdefg';
+    scopeMock.$digest();
+    expect(ydCardServiceMock.loadAndParseCardFromPath).toHaveBeenCalledWith("abcdefg");
   });
 
   it('should sort card correctly!', function (done) {
+    scopeMock.row = 2;
+    scopeMock.col = 2;
+    scopeMock.$digest();
 
     setTimeout(function () {
       expect(scopeMock.cards).toEqual(
-        [ [ [1, 2], [3] ] ]
+        [[['a', 'b']]]
       );
       done();
     }, 500);
@@ -103,5 +143,5 @@ describe('ydCardDisplayCtrl', function () {
       );
     });
   });
-
 });
+

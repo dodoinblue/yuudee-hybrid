@@ -69,46 +69,6 @@ describe('ydCardDisplayCtrl', function () {
     expect(scopeMock.isEditMode).toBe(true);
   });
 
-  xit('should call ydCardService to get cards', function () {
-    expect(ydCardServiceMock.loadAndParseCardFromPath).toHaveBeenCalledWith("../card-assets/01-我需要帮助");
-  });
 
-  xit('should sort card correctly!', function (done) {
-
-    setTimeout(function () {
-      expect(scopeMock.cards).toEqual(
-        [[[1, 2], [3]]]
-      );
-      done();
-    }, 500);
-  });
-
-  xdescribe('sortCards', function () {
-    it('should return empty array', function () {
-      var result = controller.sortCards([], 3, 3);
-      expect(result).toEqual([]);
-    });
-
-    it('should return a 2 x 3 x 3 3-d array', function () {
-      var result = controller.sortCards([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3, 3);
-      expect(result).toEqual(
-        [[[1, 2, 3], [4, 5, 6], [7, 8, 9]], [[10]]]
-      );
-    });
-
-    it('should return a 3 x 2 x 2 3-d array', function () {
-      var result = controller.sortCards([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2, 2);
-      expect(result).toEqual(
-        [[[1, 2], [3, 4]], [[5, 6], [7, 8]], [[9, 10]]]
-      );
-    });
-
-    it('should return a 4 x 1 x 1 3-d array', function () {
-      var result = controller.sortCards([1, 2, 3, 4], 1, 1);
-      expect(result).toEqual(
-        [[[1]], [[2]], [[3]], [[4]]]
-      );
-    });
-  });
 
 });
