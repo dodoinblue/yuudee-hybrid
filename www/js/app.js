@@ -11,7 +11,7 @@ var yuudee = angular.module('yuudee', ['ionic',
   'ydCardService',
   'ydDrawer']);
 
-yuudee.run(function ($ionicPlatform, $ionicHistory) {
+yuudee.run(function ($ionicPlatform, $ionicHistory, $ionicConfig) {
   $ionicPlatform.ready(function () {
     if (window.cordova && window.cordova.plugins.Keyboard) {
       // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -27,10 +27,15 @@ yuudee.run(function ($ionicPlatform, $ionicHistory) {
     if (window.StatusBar) {
       StatusBar.styleDefault();
     }
+
+    // Try disable page transition animation. For partial page loading in the furture.
+    $ionicConfig.views.transition('none');
+
+    // TODO: if iOS then this
+    $ionicHistory.nextViewOptions({
+      // To avoid black screen on iOS simulator. To be tested on real device.
+      disableAnimate: true
+    });
   });
-  // TODO: if iOS then this
-  $ionicHistory.nextViewOptions({
-    // To avoid black screen on iOS simulator. To be tested on real device.
-    disableAnimate: true
-  });
+
 });
