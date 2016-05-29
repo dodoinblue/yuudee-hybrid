@@ -5,9 +5,10 @@
 /* Yuudee Card Directive */
 var ydCardDirective = angular.module('ydCardDirective', ['ngAudio']);
 
-ydCardDirective.directive('ydCard', ['$window', 'ydCardService', '$interval', '$timeout', 'ngAudio',
+ydCardDirective.controller('ydCardCtrl', ['$scope', '$element', '$window',
+  'ydCardService', '$interval', '$timeout', 'ngAudio',
+  function ($scope, $element, $window, ydCardService, $interval, $timeout, ngAudio) {
 
-  function ($window, ydCardService, $interval, $timeout, ngAudio) {
     var w = angular.element($window)[0];
     // console.log('window size: ', w.innerWidth, ' x ', w.innerHeight);
 
@@ -36,6 +37,109 @@ ydCardDirective.directive('ydCard', ['$window', 'ydCardService', '$interval', '$
       return TweenLite.to(element, 1, params);
     };
 
+    $scope.card_bg_image = "../img/card_bg.png";
+    $scope.image = "../img/dummy_content.jpg";
+    $scope.title = "Loading...";
+
+    var images = ["../img/dummy_content.jpg"];
+    var audios = ["../card-assets/dummy_audio.mp3"];
+    $scope.isStack = false;
+
+    $scope.$watch('fileName', function (newVal) {
+      var fileName = newVal;
+
+      if (fileName.indexOf('.xydcard', fileName.length - '.xydcard'.length) !== -1) {
+        ydCardService.parseCard($scope.parentPath, fileName).then(function (card) {
+          $scope.title = card.title;
+          audios = card.audios;
+          images = card.images;
+          $scope.image = images[0];
+          $scope.sound = ngAudio.load(audios[0]);
+        }).catch(function (error) {
+          console.log('error.');
+        });
+      } else {
+        ydCardService.parseStack($scope.parentPath + '/' + fileName).then(function (stack) {
+          $scope.isStack = true;
+          $scope.card_bg_image = "../img/cat_bg.png";
+          $scope.image = stack.cover;
+          $scope.title = stack.title;
+          $scope.path = stack.path;
+
+        }).catch(function (error) {
+          console.log('error.');
+        });
+      }
+    });
+
+    var isPlaying = false;
+    var onCompleteHandler = function () {
+      var slideshow = imageSlideshow();
+      if ($scope.sound) {
+        $scope.sound.play();
+      }
+
+      $timeout(function () {
+        animation.reverse();
+        $interval.cancel(slideshow);
+        $scope.image = images[0];
+      }, 3000);
+      // animation.reverse();
+    };
+
+    var imageSlideshow = function () {
+      var i = 1;
+      return $interval(function () {
+        $scope.image = images[i];
+        i++;
+        if (i === images.length) {
+          i = 0;
+        }
+      }, 500);
+    };
+
+    var onReverseCompleteHandler = function () {
+      animation == null;
+      isPlaying = false;
+    };
+    var animation;
+
+    var playCard = function () {
+      if (!animation) {
+        animation = buildAnimation(w.innerWidth, w.innerHeight, $element[0].parentElement,
+          onCompleteHandler, onReverseCompleteHandler);
+      }
+      console.log(animation);
+      if (!animation.isActive() && !isPlaying) {
+        animation.play();
+        isPlaying = true;
+      }
+    };
+
+    var showDrawer = function (path) {
+      $scope.$emit('SUB_DRAWER_SHOW', path);
+    };
+
+    $scope.onCardClick = function () {
+      if ($scope.isStack) {
+        showDrawer($scope.path);
+      } else {
+        playCard();
+      }
+    };
+
+    $scope.onEditClick = function () {
+      console.log($scope.title + " Card Edit is clicked.")
+    };
+
+    // export function for test
+    this.buildAnimation = buildAnimation;
+  }
+]);
+
+ydCardDirective.directive('ydCard', [
+
+  function () {
     return {
       restrict: 'AE',
       scope: true,
@@ -45,104 +149,6 @@ ydCardDirective.directive('ydCard', ['$window', 'ydCardService', '$interval', '$
         scope.fileName = attrs.name;
         scope.parentPath = attrs.parent;
       },
-      controller: function ($scope, $element, $attrs) {
-        $scope.card_bg_image = "../img/card_bg.png";
-        $scope.image = "../img/dummy_content.jpg";
-        $scope.title = "Loading...";
-        var images = ["../img/dummy_content.jpg"];
-        var audios = ["../card-assets/dummy_audio.mp3"];
-        var isStack = false;
-
-        $scope.$watch('fileName', function (newVal) {
-          var fileName = newVal;
-
-          if (fileName.indexOf('.xydcard', fileName.length - '.xydcard'.length) !== -1) {
-            ydCardService.parseCard($scope.parentPath, fileName).then(function (card) {
-              $scope.isStack = card.isStack;
-              if (card.isStack === true) {
-                $scope.card_bg_image = "../img/cat_bg.png";
-              }
-              $scope.title = card.title;
-              audios = card.audios;
-              images = card.images;
-              $scope.image = images[0];
-              $scope.sound = ngAudio.load(audios[0]);
-            }).catch(function (error) {
-              console.log('error.');
-            });
-          } else {
-            ydCardService.parseStack($scope.parentPath + '/' + fileName).then(function (stack) {
-              // console.log(stack);
-              $scope.isStack = true;
-              $scope.card_bg_image = "../img/cat_bg.png";
-              $scope.image = stack.cover;
-              $scope.title = stack.title;
-              $scope.path = stack.path;
-
-            }).catch(function (error) {
-              console.log('error.');
-            });
-          }
-        });
-
-        var isPlaying = false;
-        var onCompleteHandler = function () {
-          var slideshow = imageSlideshow();
-          if ($scope.sound) {
-            $scope.sound.play();
-          }
-
-          $timeout(function () {
-            animation.reverse();
-            $interval.cancel(slideshow);
-            $scope.image = images[0];
-          }, 3000);
-          // animation.reverse();
-        };
-
-        var imageSlideshow = function () {
-          var i = 1;
-          return $interval(function () {
-            $scope.image = images[i];
-            i++;
-            if (i === images.length) {
-              i = 0;
-            }
-          }, 500);
-        };
-
-        var onReverseCompleteHandler = function () {
-          animation == null;
-          isPlaying = false;
-        };
-        var animation;
-
-        var playCard = function () {
-          if (!animation) {
-            animation = buildAnimation(w.innerWidth, w.innerHeight, $element[0].parentElement,
-              onCompleteHandler, onReverseCompleteHandler);
-          }
-          if (!animation.isActive() && !isPlaying) {
-            animation.play();
-            isPlaying = true;
-          }
-        };
-
-        var showDrawer = function (path) {
-          $scope.$emit('SUB_DRAWER_SHOW', path);
-        };
-
-        $scope.onCardClick = function () {
-          if ($scope.isStack) {
-            showDrawer($scope.path);
-          } else {
-            playCard();
-          }
-        };
-
-        $scope.onEditClick = function () {
-          console.log($scope.title + " Card Edit is clicked.")
-        }
-      }
+      controller: 'ydCardCtrl'
     };
   }]);

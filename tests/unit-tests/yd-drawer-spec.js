@@ -12,7 +12,7 @@ describe('yd-drawer directive', function () {
     module('ydDrawer', function ($provide, $controllerProvider) {
       $controllerProvider.register('ydDrawerCtrl', function ($scope) {
         // Controller Mock
-        console.log("mock controller called");
+        console.log("mock ydDrawer controller called");
         // $scope.$watch('path', function(newVal){
         //   console.log('path changed. ', newVal);
         // })
