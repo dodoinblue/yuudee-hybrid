@@ -5,8 +5,8 @@
 
 var ydCardDisplayCtrl = angular.module('ydCardDisplayCtrl', []);
 
-ydCardDisplayCtrl.controller('ydCardDisplayCtrl', ['$scope', '$state', 'ydCardService', '$element', '$compile',
-  function ($scope, $state, ydCardService, $element, $compile) {
+ydCardDisplayCtrl.controller('ydCardDisplayCtrl', ['$scope', '$state', 'ydCardService',
+  function ($scope, $state, ydCardService) {
 
     $scope.isEditMode = false;
     $scope.enterEditMode = function () {
@@ -38,17 +38,28 @@ ydCardDisplayCtrl.controller('ydCardDisplayCtrl', ['$scope', '$state', 'ydCardSe
       showDrawer(false, extras, id);
     });
 
-    var showDrawer = function (isbase, path, id) {
-      var template = '<yd-drawer isbase="' + isbase
-        + '" path="' + path
-        + '" drawerid="' + id
-        + '"></yd-drawer>';
+    $scope.$on('SUB_DRAWER_CLOSE', function (event, extras) {
+      closeDrawer();
+    });
 
-      var newElement = $compile(template)($scope);
-      $element.append(newElement);
+    var showDrawer = function (isbase, path, id) {
+      $scope.drawers.push({
+        drawerid: id,
+        path: path,
+        isbase: false
+      })
     };
 
+    var closeDrawer = function () {
+      var drawer = $scope.drawers.pop();
+    };
 
+    $scope.drawers = [];
+    $scope.drawers.push({
+      drawerid: 0,
+      path: '../card-assets',
+      isbase: true
+    });
   }]);
 
 

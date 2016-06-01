@@ -5,8 +5,8 @@
 
 var ydDrawer = angular.module('ydDrawer', []);
 
-ydDrawer.controller('ydDrawerCtrl', ['$scope', '$element', 'ydCardService',
-  function ($scope, $element, ydCardService) {
+ydDrawer.controller('ydDrawerCtrl', ['$scope', 'ydCardService',
+  function ($scope, ydCardService) {
     /* Arrange cards to pages, and row x col grid on each page
      *
      * E.g. cards = [1,2,3,4,5,6,7,8,9] to 2x2 grid. result should be:
@@ -34,7 +34,7 @@ ydDrawer.controller('ydDrawerCtrl', ['$scope', '$element', 'ydCardService',
     };
 
     var backClicked = function () {
-      $element.remove();
+      $scope.$emit('SUB_DRAWER_CLOSE', $scope.path);
     };
 
     $scope.backClicked = backClicked;

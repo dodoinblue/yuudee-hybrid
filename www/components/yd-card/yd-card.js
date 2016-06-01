@@ -109,7 +109,6 @@ ydCardDirective.controller('ydCardCtrl', ['$scope', '$element', '$window',
         animation = buildAnimation(w.innerWidth, w.innerHeight, $element[0].parentElement,
           onCompleteHandler, onReverseCompleteHandler);
       }
-      console.log(animation);
       if (!animation.isActive() && !isPlaying) {
         animation.play();
         isPlaying = true;

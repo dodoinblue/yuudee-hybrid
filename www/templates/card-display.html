@@ -16,7 +16,10 @@
       <!--</ion-slide>-->
     <!--</ion-slide-box>-->
   <!--</div>-->
-  <yd-drawer isbase="true" path="../card-assets"></yd-drawer>
+  <div class="grid-display" >
+    <yd-drawer ng-repeat="d in drawers" isbase="{{d.isbase}}" path="{{d.path}}" id="{{d.drawerid}}"></yd-drawer>
+    <!--<yd-drawer isbase="{{d.isbase}}" path="../card-assets"></yd-drawer>-->
+  </div>
 
   <!-- settings layer -->
   <div id="app-settings-header" ng-show="isEditMode">

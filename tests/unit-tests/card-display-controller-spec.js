@@ -11,15 +11,13 @@ describe('ydCardDisplayCtrl', function () {
     scopeMock,
     stateMock,
     historyMock,
-    ydCardServiceMock,
-    elementMock,
-    compileMock;
+    ydCardServiceMock;
 
   //load module
   beforeEach(module('ydCardDisplayCtrl'));
 
   // instantiate the controller and mocks for every test
-  beforeEach(inject(function ($controller, $q, $rootScope, $compile) {
+  beforeEach(inject(function ($controller, $q, $rootScope) {
     scopeMock = $rootScope.$new();
     stateMock = jasmine.createSpyObj('$state spy', ['go']);
     historyMock = jasmine.createSpyObj('$ionicHistory spy', ['nextViewOptions']);
@@ -29,9 +27,6 @@ describe('ydCardDisplayCtrl', function () {
       }
     };
 
-    elementMock = jasmine.createSpyObj('$element spy', ['append']);
-    // compileMock = jasmine.createSpyObj('$compile spy', ['constructor']);
-
     spyOn(ydCardServiceMock, "loadAndParseCardFromPath").and.returnValue($q.when([1, 2, 3]));
 
     // instantiate the Controller under test.
@@ -39,9 +34,7 @@ describe('ydCardDisplayCtrl', function () {
       '$scope': scopeMock,
       '$state': stateMock,
       '$ionicHistory': historyMock,
-      'ydCardService': ydCardServiceMock,
-      '$element': elementMock,
-      '$compile': $compile
+      'ydCardService': ydCardServiceMock
     });
 
     // make a $digest call for the then function to be called.
@@ -68,7 +61,5 @@ describe('ydCardDisplayCtrl', function () {
     scopeMock.enterEditMode();
     expect(scopeMock.isEditMode).toBe(true);
   });
-
-
 
 });
