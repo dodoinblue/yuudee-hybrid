@@ -54,7 +54,7 @@ ydCardDirective.controller('ydCardCtrl', ['$scope', '$element', '$window',
           audios = card.audios;
           images = card.images;
           $scope.image = images[0];
-          $scope.sound = ngAudio.load(audios[0]);
+          // $scope.sound = ngAudio.load(audios[0]);
         }).catch(function (error) {
           console.log('error.');
         });
@@ -76,7 +76,9 @@ ydCardDirective.controller('ydCardCtrl', ['$scope', '$element', '$window',
     var onCompleteHandler = function () {
       var slideshow = imageSlideshow();
       if ($scope.sound) {
-        $scope.sound.play();
+        // TODO: unload it?
+        ngAudio.load(audios[0]).play();
+        // $scope.sound.play();
       }
 
       $timeout(function () {
