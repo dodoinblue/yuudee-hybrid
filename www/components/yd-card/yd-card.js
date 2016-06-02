@@ -5,44 +5,106 @@
 /* Yuudee Card Directive */
 var ydCardDirective = angular.module('ydCardDirective', ['ngAudio']);
 
-ydCardDirective.controller('ydCardCtrl', ['$scope', '$element', '$window',
-  'ydCardService', '$interval', '$timeout', 'ngAudio',
-  function ($scope, $element, $window, ydCardService, $interval, $timeout, ngAudio) {
+ydCardDirective.service('ydCardUtil', ['$window', 'ngAudio', '$timeout', '$interval',
+  function ($window, ngAudio, $timeout, $interval) {
 
-    var w = angular.element($window)[0];
-    // console.log('window size: ', w.innerWidth, ' x ', w.innerHeight);
+    var getWindowSize = function () {
+      return {
+        height: $window.innerHeight,
+        width: $window.innerWidth
+      }
+    };
 
-    // This animation enlarge the card to the center of the card display area.
-    var buildAnimation = function (windowW, windowH, element, onCompleteHandler, onReverseCompleteHandler) {
-      var rect = element.getBoundingClientRect();
-      var scale = windowW / rect.width;
-      var winCenterLeft = windowW / 2;
-      var winCenterTop = windowH / 2;
+    var calcToCenterParams = function (win, rect) {
+      var scale = win.width / rect.width;
+      var winCenterLeft = win.width / 2;
+      var winCenterTop = win.height / 2;
       var cardCenterLeft = rect.left + rect.width / 2;
       var cardCenterTop = rect.top + rect.height / 2;
       var xTrans = winCenterLeft - cardCenterLeft;
       var yTrans = winCenterTop - cardCenterTop;
 
-      var params = {
+      return {
         scaleX: scale,
         scaleY: scale,
         x: xTrans,
-        y: yTrans,
-        zIndex: 9999,
-        paused: true,
-        onComplete: onCompleteHandler,
-        onReverseComplete: onReverseCompleteHandler
-      };
+        y: yTrans
+      }
 
-      return TweenLite.to(element, 1, params);
     };
+
+    var buildAnimation = function (toCenterParams, el, onCompleteHandler, onReverseCompleteHandler) {
+      var animationParams = toCenterParams;
+      animationParams.zIndex = 999;
+      animationParams.paused = true;
+      animationParams.onComplete = onCompleteHandler;
+      animationParams.onReverseComplete = onReverseCompleteHandler;
+
+      return TweenLite.to(el, 1, animationParams);
+    };
+
+    var isPlaying = false;
+    var onCompleteHandler = function (scope) {
+      var slideshow = imageSlideshow(scope);
+      ngAudio.load(scope.audios[0]).play();
+
+      $timeout(function () {
+        animation.reverse();
+        $interval.cancel(slideshow);
+        scope.image = scope.images[0];
+      }, 3000);
+      // animation.reverse();
+    };
+
+    var imageSlideshow = function (scope) {
+      var i = 1;
+      return $interval(function () {
+        scope.image = scope.images[i];
+        i++;
+        if (i === scope.images.length) {
+          i = 0;
+        }
+      }, 500);
+    };
+
+    var onReverseCompleteHandler = function () {
+      animation = null;
+      isPlaying = false;
+    };
+
+    var animation;
+    var playCard = function (el, scope) {
+      if (!animation) {
+        animation = buildAnimation(calcToCenterParams(getWindowSize(), el.getBoundingClientRect()), el,
+          onCompleteHandler(scope), onReverseCompleteHandler)
+      }
+      if (!animation.isActive() && !isPlaying) {
+        animation.play();
+        isPlaying = true;
+      }
+    };
+
+    var showDrawer = function (scope) {
+      scope.$emit('SUB_DRAWER_SHOW', scope.path);
+    };
+
+    // Export methods
+    this.getWindowSize = getWindowSize;
+    this.calcToCenterParams = calcToCenterParams;
+    // this.buildAnimation = buildAnimation;
+    this.playCard = playCard;
+    this.showDrawer = showDrawer;
+  }]);
+
+ydCardDirective.controller('ydCardCtrl', ['$scope', '$element', 'ydCardService', 'ydCardUtil',
+  function ($scope, $element, ydCardService, ydCardUtil) {
 
     $scope.card_bg_image = "../img/card_bg.png";
     $scope.image = "../img/dummy_content.jpg";
     $scope.title = "Loading...";
 
-    var images = ["../img/dummy_content.jpg"];
-    var audios = ["../card-assets/dummy_audio.mp3"];
+    $scope.images = ["../img/dummy_content.jpg"];
+    $scope.audios = ["../card-assets/dummy_audio.mp3"];
     $scope.isStack = false;
 
     $scope.$watch('fileName', function (newVal) {
@@ -51,9 +113,9 @@ ydCardDirective.controller('ydCardCtrl', ['$scope', '$element', '$window',
       if (fileName.indexOf('.xydcard', fileName.length - '.xydcard'.length) !== -1) {
         ydCardService.parseCard($scope.parentPath, fileName).then(function (card) {
           $scope.title = card.title;
-          audios = card.audios;
-          images = card.images;
-          $scope.image = images[0];
+          $scope.audios = card.audios;
+          $scope.images = card.images;
+          $scope.image = $scope.images[0];
           // $scope.sound = ngAudio.load(audios[0]);
         }).catch(function (error) {
           console.log('error.');
@@ -72,69 +134,17 @@ ydCardDirective.controller('ydCardCtrl', ['$scope', '$element', '$window',
       }
     });
 
-    var isPlaying = false;
-    var onCompleteHandler = function () {
-      var slideshow = imageSlideshow();
-      if ($scope.sound) {
-        // TODO: unload it?
-        ngAudio.load(audios[0]).play();
-        // $scope.sound.play();
-      }
-
-      $timeout(function () {
-        animation.reverse();
-        $interval.cancel(slideshow);
-        $scope.image = images[0];
-      }, 3000);
-      // animation.reverse();
-    };
-
-    var imageSlideshow = function () {
-      var i = 1;
-      return $interval(function () {
-        $scope.image = images[i];
-        i++;
-        if (i === images.length) {
-          i = 0;
-        }
-      }, 500);
-    };
-
-    var onReverseCompleteHandler = function () {
-      animation == null;
-      isPlaying = false;
-    };
-    var animation;
-
-    var playCard = function () {
-      if (!animation) {
-        animation = buildAnimation(w.innerWidth, w.innerHeight, $element[0].parentElement,
-          onCompleteHandler, onReverseCompleteHandler);
-      }
-      if (!animation.isActive() && !isPlaying) {
-        animation.play();
-        isPlaying = true;
-      }
-    };
-
-    var showDrawer = function (path) {
-      $scope.$emit('SUB_DRAWER_SHOW', path);
-    };
-
     $scope.onCardClick = function () {
       if ($scope.isStack) {
-        showDrawer($scope.path);
+        ydCardUtil.showDrawer($scope);
       } else {
-        playCard();
+        ydCardUtil.playCard($element[0].parentElement, $scope);
       }
     };
 
     $scope.onEditClick = function () {
       console.log($scope.title + " Card Edit is clicked.")
     };
-
-    // export function for test
-    this.buildAnimation = buildAnimation;
   }
 ]);
 

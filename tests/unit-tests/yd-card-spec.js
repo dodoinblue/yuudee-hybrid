@@ -1,7 +1,7 @@
 /**
  * Created by Charles on 5/28/16.
  */
-describe('yd-card exclude ctrl', function () {
+describe('yd-card directive', function () {
 
   var scopeMock,
     compileMock,
@@ -10,7 +10,7 @@ describe('yd-card exclude ctrl', function () {
   beforeEach(module('templates'));
 
   beforeEach(function () {
-    ctrlFn = jasmine.createSpyObj('control function', ['fn']);
+    ctrlFn = jasmine.createSpy('control function');
     // module('ydCardDirective', function ($provide, $controllerProvider) {
     //   $controllerProvider.register('ydCardCtrl', function () {
     //     // Controller Mock
@@ -18,7 +18,7 @@ describe('yd-card exclude ctrl', function () {
     //   });
     // });
     module('ydCardDirective', function ($provide, $controllerProvider) {
-      $controllerProvider.register('ydCardCtrl', ctrlFn.fn);
+      $controllerProvider.register('ydCardCtrl', ctrlFn);
     });
   });
 
@@ -38,8 +38,18 @@ describe('yd-card exclude ctrl', function () {
   it('should call ctrl', function () {
     var elem = compileMock('<yd-card parent="blabla/path" name="1234"></yd-card>')(scopeMock);
     scopeMock.$digest();
-    // console.log(scopeMock);
-    expect(ctrlFn.fn).toHaveBeenCalled();
+
+    expect(ctrlFn).toHaveBeenCalled();
+    // Should have one of each {card-frame, card-content, card-text, card-edit-button}
+    expect((elem.html().match(/card-frame/g) || []).length).toBe(1);
+    expect((elem.html().match(/card-content/g) || []).length).toBe(1);
+    expect((elem.html().match(/card-text/g) || []).length).toBe(1);
+    expect((elem.html().match(/card-edit-button/g) || []).length).toBe(1);
+
+    // Try again with multiple cards
+    elem = compileMock('<yd-card parent="blabla/path/1" name="1234"></yd-card><yd-card parent="blabla/path/2" name="5678"></yd-card>')(scopeMock);
+    scopeMock.$digest();
+    expect(elem.length).toBe(2);
   })
 
 });
@@ -48,17 +58,15 @@ describe('ydCardCtrl', function () {
 
   var scopeMock,
     elementMock,
-    windowMock,
     ydCardServiceMock,
-    intervalMock,
-    timeoutMock,
     ngAudioMock,
+    ydCardUtilMock,
     controller;
 
   beforeEach(module('ydCardDirective'));
   beforeEach(inject(function ($controller, $q, $rootScope, $timeout, $interval) {
     scopeMock = $rootScope.$new();
-    elementMock = jasmine.createSpyObj('$element spy', ['remove']);
+    elementMock = [{parentElement: '<parent />'}];
     ydCardServiceMock = {
       parseCard: jasmine.createSpy('parseCard spy').and.returnValue($q.when({
         title: 'dummy card title',
@@ -75,8 +83,15 @@ describe('ydCardCtrl', function () {
         seq: 2
       }))
     };
-    timeoutMock = $timeout;
-    intervalMock = $interval;
+
+    ydCardUtilMock = {
+      getWindowSize: jasmine.createSpy('getWindowSize').and.returnValue({height: 200, width: 200}),
+      calcToCenterParams: jasmine.createSpy('calcToCenterParam'),
+      buildAnimation: jasmine.createSpy('buildAnimation'),
+      playCard: jasmine.createSpy('playCard'),
+      showDrawer: jasmine.createSpy('showDrawer')
+    };
+
     ngAudioMock = jasmine.createSpyObj('ngAudioMock', ['load']);
 
     // $interval, $timeout, ngAudio
@@ -84,10 +99,7 @@ describe('ydCardCtrl', function () {
       '$scope': scopeMock,
       '$element': elementMock,
       'ydCardService': ydCardServiceMock,
-      '$window': windowMock,
-      '$interval': intervalMock,
-      '$timeout': timeoutMock,
-      'ngAudio': ngAudioMock
+      'ydCardUtil': ydCardUtilMock
     });
 
   }));
@@ -97,14 +109,10 @@ describe('ydCardCtrl', function () {
     scopeMock.parentPath = 'parent';
     scopeMock.fileName = 'path/abc.xydcard';
     scopeMock.$digest();
-    // TODO: search for multiple input variable mock call
-    // expect(ydCardServiceMock.parseCard).toHaveBeenCalledWith(['parent', 'path/abc.xydcard']);
-    expect(ydCardServiceMock.parseCard).toHaveBeenCalled();
+    expect(ydCardServiceMock.parseCard).toHaveBeenCalledWith('parent', 'path/abc.xydcard');
     expect(scopeMock.title).toBe('dummy card title');
     expect(scopeMock.path).toBeUndefined();
     expect(scopeMock.isStack).toBe(false);
-    // TODO: how to test this?
-    // expect(scopeMock.sound).toBeDefined();
   });
 
 
@@ -119,26 +127,34 @@ describe('ydCardCtrl', function () {
     expect(scopeMock.image).toBe('path/to/cover')
   });
 
-  // TODO: investigate a general question. How to test variables & functions in controller closure?
-  // it('card should play', function (done) {
-  //   scopeMock.parentPath = 'parent';
-  //   scopeMock.fileName = 'path/abc.xydcard';
-  //   scopeMock.$digest();
-  //
-  //   // expect(scopeMock.isPlaying).toBe(false);
-  //   scopeMock.onCardClick();
-  //   setTimeout(function(){
-  //     expect(ngAudioMock.play).toHaveBeenCalled();
-  //   }, 3000);
-  //
-  // });
-  //
-  // it('drawer should open', function () {
-  //
-  // });
 
-  // it('should build animation correctly', function () {
-  //   // buildAnimation = function (windowW, windowH, element, onCompleteHandler, onReverseCompleteHandler) {
-  //   var animation = controller.buildAnimation();
-  // });
+  it('should call showDrawer', function(){
+    scopeMock.parentPath = 'parent';
+    scopeMock.fileName = 'path/abc';
+    scopeMock.$digest();
+    expect(scopeMock.onCardClick).toBeDefined();
+    scopeMock.onCardClick();
+    expect(ydCardUtilMock.showDrawer).toHaveBeenCalledWith(scopeMock);
+  });
+
+  it('should play card', function () {
+    scopeMock.parentPath = 'parent';
+    scopeMock.fileName = 'path/abc.xydcard';
+    scopeMock.$digest();
+    expect(scopeMock.onCardClick).toBeDefined();
+    scopeMock.onCardClick();
+    expect(ydCardUtilMock.playCard).toHaveBeenCalledWith('<parent />', scopeMock);
+  });
+});
+
+describe('ydCardUtil', function () {
+  var windowMock,
+    ngAudioMock,
+    tiemoutMock,
+    intervalMock;
+
+  beforeEach(module('ydCardDirective'));
+  beforeEach(inject(function ($controller, $q, $rootScope, $timeout, $interval) {
+    ngAudioMock = jasmine.createSpyObj('ngAudioMock', ['load']);
+  }));
 });
