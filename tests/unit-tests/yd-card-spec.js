@@ -128,7 +128,7 @@ describe('ydCardCtrl', function () {
   });
 
 
-  it('should call showDrawer', function(){
+  it('should call showDrawer', function () {
     scopeMock.parentPath = 'parent';
     scopeMock.fileName = 'path/abc';
     scopeMock.$digest();
@@ -144,17 +144,99 @@ describe('ydCardCtrl', function () {
     expect(scopeMock.onCardClick).toBeDefined();
     scopeMock.onCardClick();
     expect(ydCardUtilMock.playCard).toHaveBeenCalledWith('<parent />', scopeMock);
+    expect(ydCardUtilMock.showDrawer).not.toHaveBeenCalled();
   });
 });
 
 describe('ydCardUtil', function () {
   var windowMock,
     ngAudioMock,
-    tiemoutMock,
-    intervalMock;
+    timeoutMock,
+    intervalMock,
+    testObject;
 
-  beforeEach(module('ydCardDirective'));
-  beforeEach(inject(function ($controller, $q, $rootScope, $timeout, $interval) {
-    ngAudioMock = jasmine.createSpyObj('ngAudioMock', ['load']);
+  beforeEach(function () {
+    module(function ($provide) {
+      $provide.service('$window', function () {
+        this.innerHeight = 568;
+        this.innerWidth = 320;
+      });
+      // $provide.service('$timeout', function () {
+      //   this.showModalDialog = jasmine.createSpy('showModalDialog');
+      // });
+      // $provide.service('$interval', function () {
+      //   this.showModalDialog = jasmine.createSpy('showModalDialog');
+      // });
+      $provide.service('ngAudio', function () {
+        this.load = jasmine.createSpy('load').and.returnValue({
+          play: jasmine.createSpy('play audio')
+        });
+      });
+    });
+    module('ydCardDirective');
+  });
+
+  // beforeEach(module('ydCardDirective'));
+  beforeEach(inject(function ($window, _$timeout_, _$interval_, ngAudio, ydCardUtil) {
+    testObject = ydCardUtil;
+    windowMock = $window;
+    timeoutMock = _$timeout_;
+    intervalMock = _$interval_;
+    ngAudioMock = ngAudio;
   }));
+
+  it('should return correct window size', function () {
+    var size = testObject.getWindowSize();
+    expect(size).toEqual({height: 568, width: 320});
+  });
+
+  it('should get correct parameter by window size and card position', function () {
+    var win = {
+      height: 200,
+      width: 200
+    };
+
+    var rect = {
+      top: 10,
+      left: 10,
+      width: 100,
+      height: 100
+    };
+
+    var params = testObject.calcToCenterParams(win, rect);
+    expect(params).toEqual({
+      scaleX: 2,
+      scaleY: 2,
+      x: 40,
+      y: 40
+    });
+  });
+
+  it('should emit SUB_DRAWER_SHOW', function () {
+    var scope = {
+      $emit: jasmine.createSpy('emit mock'),
+      path: 'abc'
+    };
+    testObject.showDrawer(scope);
+    expect(scope.$emit).toHaveBeenCalledWith('SUB_DRAWER_SHOW', 'abc');
+  });
+
+  // it('should play card', function () {
+  //   var el = {
+  //     getBoundingClientRect: jasmine.createSpy('getBoundingClientRect').and.returnValue({
+  //       top: 10,
+  //       left: 10,
+  //       width: 100,
+  //       height: 100
+  //     })
+  //   };
+  //   var scope = {
+  //     image: 'path/to/image/1',
+  //     images: ['path/to/image/1', 'path/to/image/2'],
+  //     audios: ['path/to/audio']
+  //   };
+  //   testObject.playCard(el, scope);
+  //   timeoutMock.flush();
+  // });
+
 });
