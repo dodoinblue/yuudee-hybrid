@@ -9,8 +9,15 @@
   max-width: 100%;
 }
 
-.yd-cardd-card .card-frame {
-  z-index: 100;
+.yd-card .card-frame {
+  z-index: 999;
+}
+
+.yd-card .card-content img {
+  height: 100%;
+  width: 100%;
+  -moz-border-radius: 2.5px;
+  border-radius: 2.5px;
 }
 
 /*
@@ -28,6 +35,7 @@
   left: 12%;
   top: 7.3%;
   right: 12%;
+  bottom: 33.9%
 }
 
 .yd-card .card-text {
