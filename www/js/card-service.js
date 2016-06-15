@@ -262,6 +262,28 @@ ydCardService.service('ydCardService', ['$q',
       return cards;
     };
 
+    var getFileListFromServer = function (key) {
+      
+    };
+
+    /*
+     * For qiniu backend.
+     * Test:
+     *     var AccessKey = "MY_ACCESS_KEY";
+     *     var SecretKey = "MY_SECRET_KEY";
+     *
+     *     var signingStr = "/move/bmV3ZG9jczpmaW5kX21hbi50eHQ=/bmV3ZG9jczpmaW5kLm1hbi50eHQ=\n";
+     *     sign = "157b18874c0a1d83c4b0802074f0fd39f8e47843"
+     *     encodedSign = "FXsYh0wKHYPEsIAgdPD9OfjkeEM="
+     *     accessToken = "MY_ACCESS_KEY:FXsYh0wKHYPEsIAgdPD9OfjkeEM="
+     */
+    var calcAccessToken = function (signingStr, ak, sk) {
+      var sign = CryptoJS.HmacSHA1(signingStr, sk);
+      var encodedSign = sign.toString(CryptoJS.enc.Base64);
+      console.log('encoded sign: ', encodedSign);
+      return ak + ':' + encodedSign;
+    };
+
     // Exports:
     this.loadAndParseCardFromPath = loadAndParseCardFromPath;
     this.parseCard = parseCard;

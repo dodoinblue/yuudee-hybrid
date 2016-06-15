@@ -7,6 +7,8 @@ var ydDrawer = angular.module('ydDrawer', []);
 
 ydDrawer.controller('ydDrawerCtrl', ['$scope', 'ydCardService',
   function ($scope, ydCardService) {
+
+
     /* Arrange cards to pages, and row x col grid on each page
      *
      * E.g. cards = [1,2,3,4,5,6,7,8,9] to 2x2 grid. result should be:
@@ -50,7 +52,7 @@ ydDrawer.controller('ydDrawerCtrl', ['$scope', 'ydCardService',
         console.log("error occurs: ", error);
       });
     });
-    
+
     // export sortcard for testing
     this.sortCards = sortCards;
   }]);
