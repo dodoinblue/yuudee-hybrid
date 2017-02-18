@@ -8,6 +8,7 @@
   "dependencies": {
     "angular-audio": "~1.7.2",
     "angular-base64": "^2.0.5",
-    "cryptojslib": "^3.1.2"
+    "cryptojslib": "^3.1.2",
+    "angular-dropdowns": "^1.5.1"
   }
 }
