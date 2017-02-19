@@ -168,6 +168,20 @@ ydCardService.service('ydCardService', ['$q',
       });
     };
 
+    var getSubStackList = function(path) {
+      return getCardListFromPath(path).then(function (data) {
+        var stacks = [];
+        for (var i = 0; i < data.length; i++) {
+          var child = data[i];
+          if (child.path) {
+            stacks.push(child);
+          }
+        }
+        return parseList(stacks);
+      });
+
+    };
+
     var parseList = function (list) {
       var cards = [];
       for (var i = 0; i < list.length; i++) {
@@ -263,7 +277,7 @@ ydCardService.service('ydCardService', ['$q',
     };
 
     var getFileListFromServer = function (key) {
-      
+
     };
 
     /*
@@ -288,4 +302,5 @@ ydCardService.service('ydCardService', ['$q',
     this.loadAndParseCardFromPath = loadAndParseCardFromPath;
     this.parseCard = parseCard;
     this.parseStack = parseStack;
+    this.getSubStackList = getSubStackList;
   }]);

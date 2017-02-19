@@ -9,7 +9,8 @@ var yuudee = angular.module('yuudee', ['ionic',
   'ydCardDisplayCtrl',
   'ydCardResourceCtrl',
   'ydCardService',
-  'ydDrawer']);
+  'ydDrawer',
+  'ngDropdowns']);
 
 yuudee.run(function ($ionicPlatform, $ionicHistory, $ionicConfig) {
   $ionicPlatform.ready(function () {

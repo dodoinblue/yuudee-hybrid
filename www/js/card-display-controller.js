@@ -23,6 +23,46 @@ ydCardDisplayCtrl.controller('ydCardDisplayCtrl', ['$scope', '$state', 'ydCardSe
       $state.go('resource');
     };
 
+    /*** For classware selection dropdown list in parent mode. ***/
+    // By default, use all classware option.
+    $scope.ddSelectOptions = [{
+      title: "全部",
+      path: "../card-assets"
+    }];
+
+    var generateClasswareList = function () {
+      ydCardService.getSubStackList('../card-assets').then(function (data) {
+        // console.log(data);
+        var classwares = [];
+        classwares.push({
+          title: "全部",
+          path: "../card-assets"
+        });
+        for (var i = 0; i < data.length; i++) {
+          var classware = {
+            title: data[i].name.split('-')[1],
+            path: data[i].parent + '/' + data[i].name
+          };
+          classwares.push(classware);
+        }
+        $scope.ddSelectOptions = classwares;
+      });
+    };
+
+    generateClasswareList();
+
+    $scope.onSelectionChange = function (selection) {
+      $scope.drawers = [];
+      $scope.drawers.push({
+        drawerid: 0,
+        path: selection.path,
+        isbase: true
+      });
+    };
+
+    $scope.ddSelectSelected = $scope.ddSelectOptions[0]; // Must be an object
+    /*** End of classware selection. ***/
+
     $scope.row = 2;
     $scope.col = 2;
 

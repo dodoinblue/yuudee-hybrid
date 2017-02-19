@@ -28,12 +28,10 @@
         <div class="yd-button" ng-click="exitEditMode()">结束编辑</div>
       </div>
       <div class="col col-50">
-        <div class="yd-button">
-          <select>
-            <option selected>课程标题</option>
-            <option>课程2</option>
-            <option>课程3</option>
-          </select>
+        <div class="yd-button" dropdown-select="ddSelectOptions"
+             dropdown-model="ddSelectSelected"
+             dropdown-item-label="title"
+             dropdown-onchange="onSelectionChange(selected)">
         </div>
       </div>
       <div class="col col-25">
