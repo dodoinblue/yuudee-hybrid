@@ -11,3 +11,4 @@ plugins/
 .editorconfig
 
 *.orig
+/node_modules
