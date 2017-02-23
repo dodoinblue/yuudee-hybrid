@@ -5,8 +5,8 @@
 
 var ydCardService = angular.module('ydCardService', []);
 
-ydCardService.service('ydCardService', ['$q',
-  function ($q) {
+ydCardService.service('ydCardService', ['$q', '$http',
+  function ($q, $http) {
     // Preloaded cards directory.
     var preloaded_cards = {
       "path": "../card-assets",
@@ -130,10 +130,19 @@ ydCardService.service('ydCardService', ['$q',
       }]
     };
 
-    String.prototype.endsWith = function (suffix) {
-      return this.indexOf(suffix, this.length - suffix.length) !== -1;
-    };
 
+    if (!String.prototype.endsWith) {
+      String.prototype.endsWith = function (suffix) {
+        return this.indexOf(suffix, this.length - suffix.length) !== -1;
+      };
+    }
+
+    if (!String.prototype.startsWith) {
+      String.prototype.startsWith = function (searchString, position) {
+        position = position || 0;
+        return this.substr(position, searchString.length) === searchString;
+      };
+    }
 
     var getCardListFromPath = function (path) {
       var children;
@@ -162,13 +171,47 @@ ydCardService.service('ydCardService', ['$q',
       return $q.when(children);
     };
 
+    var getSubCardsList = function (wholeTree, subPath) {
+      // Whole tree should be a object with 2 params: path & children
+      // Children is an array.
+      // If an element of children is a stack, then it is a object, containing its own path & children.
+      // If an element of children is a card, then it is a string of the full path
+
+      // First, if subPath equals to wholeTree's path, then we have found the subpath
+      if (wholeTree.path === subPath) {
+        return wholeTree.children;
+      } else {
+        // Then recursively search all children
+        var children = null;
+        for (var i = 0;
+             children == null && i < wholeTree.children.length && typeof wholeTree.children[i] === 'object';
+             i++) {
+          children = getSubCardsList(wholeTree.children[i], subPath);
+        }
+        return children;
+      }
+      // return null;
+    };
+
+    var getSubCardsListPromise = function (wholeTree, subPath) {
+      return $q.when(getSubCardsList(wholeTree, subPath));
+    };
+
     var loadAndParseCardFromPath = function (cardPath) {
-      return getCardListFromPath(cardPath).then(function (data) {
+      // return getCardListFromPath(cardPath).then(function (data) {
+      //   return parseList(data);
+      // });
+      // return getWholeCardTree().then(function (wholeTree) {
+      //   return getSubCardsListPromise(wholeTree, cardPath);
+      // }).then(function(data) {
+      //   return parseList(data);
+      // });
+      return getSubCardsListPromise(preloaded_cards, cardPath).then(function (data) {
         return parseList(data);
       });
     };
 
-    var getSubStackList = function(path) {
+    var getSubStackList = function (path) {
       return getCardListFromPath(path).then(function (data) {
         var stacks = [];
         for (var i = 0; i < data.length; i++) {
@@ -298,9 +341,32 @@ ydCardService.service('ydCardService', ['$q',
       return ak + ':' + encodedSign;
     };
 
+    // ### handles server contents   ###
+    var server_url = 'http://sg.supersuperstar.com/yuudee/unzipped/';
+
+    var getWholeCardTree = function () {
+      return $http.get(server_url + 'cards.json').then(function (data) {
+        return data.data
+      }).catch(function (error) {
+        console.log('Something wrong with server: ' + error);
+      });
+    };
+
+
     // Exports:
     this.loadAndParseCardFromPath = loadAndParseCardFromPath;
     this.parseCard = parseCard;
     this.parseStack = parseStack;
     this.getSubStackList = getSubStackList;
+
+    // Server related
+    this.server_url = server_url;
+    this.getWholeCardTree = getWholeCardTree;
+    this.getCardListFromPath = getCardListFromPath;
+    this.parseList = parseList;
+    this.parseStack = parseStack;
+    this.parseCard = parseCard;
+    this.getSubCardsList = getSubCardsList;
+
+
   }]);
