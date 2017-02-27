@@ -1,0 +1,2188 @@
+{
+  "path": ".",
+  "children": [
+    {
+      "path": "01",
+      "children": [
+        {
+          "path": "01/01.xydcard",
+          "name": "帮我擦脸"
+        },
+        {
+          "path": "01/02.xydcard",
+          "name": "帮我擦手"
+        },
+        {
+          "path": "01/03.xydcard",
+          "name": "帮我擦眼镜"
+        },
+        {
+          "path": "01/04.xydcard",
+          "name": "帮我冲马桶"
+        },
+        {
+          "path": "01/05.xydcard",
+          "name": "帮我打开"
+        },
+        {
+          "path": "01/06.xydcard",
+          "name": "帮我关上"
+        },
+        {
+          "path": "01/07.xydcard",
+          "name": "帮我给妈妈打电话"
+        },
+        {
+          "path": "01/08.xydcard",
+          "name": "帮我拿过来"
+        },
+        {
+          "path": "01/09.xydcard",
+          "name": "帮我梳头"
+        },
+        {
+          "path": "01/10.xydcard",
+          "name": "帮我修理好"
+        },
+        {
+          "path": "01/11.xydcard",
+          "name": "带我回家"
+        },
+        {
+          "path": "01/12.xydcard",
+          "name": "帮我剪指甲"
+        }
+      ],
+      "name": "我需要帮助"
+    },
+    {
+      "path": "02",
+      "children": [
+        {
+          "path": "02/01.xydcard",
+          "name": "我想上厕所"
+        },
+        {
+          "path": "02/02.xydcard",
+          "name": "我想大便"
+        },
+        {
+          "path": "02/03.xydcard",
+          "name": "我想尿尿"
+        },
+        {
+          "path": "02/04.xydcard",
+          "name": "我想穿衣服"
+        },
+        {
+          "path": "02/05.xydcard",
+          "name": "我想脱衣服"
+        },
+        {
+          "path": "02/06.xydcard",
+          "name": "我想剪指甲"
+        },
+        {
+          "path": "02/07.xydcard",
+          "name": "我想梳头"
+        },
+        {
+          "path": "02/08.xydcard",
+          "name": "我想洗脸"
+        },
+        {
+          "path": "02/09.xydcard",
+          "name": "我想洗手"
+        },
+        {
+          "path": "02/10.xydcard",
+          "name": "我想刷牙"
+        },
+        {
+          "path": "02/11.xydcard",
+          "name": "我想洗澡"
+        },
+        {
+          "path": "02/12.xydcard",
+          "name": "我需要纸"
+        },
+        {
+          "path": "02/13.xydcard",
+          "name": "我想戴眼镜"
+        }
+      ],
+      "name": "自理"
+    },
+    {
+      "path": "03",
+      "children": [
+        {
+          "path": "03/01.xydcard",
+          "name": "我走丢了"
+        },
+        {
+          "path": "03/02.xydcard",
+          "name": "请给我妈妈打电话"
+        },
+        {
+          "path": "03/03.xydcard",
+          "name": "请送我回家"
+        }
+      ],
+      "name": "我走丢了"
+    },
+    {
+      "path": "04",
+      "children": [
+        {
+          "path": "04/01.xydcard",
+          "name": "我想玩电脑"
+        },
+        {
+          "path": "04/02.xydcard",
+          "name": "我想听音乐"
+        },
+        {
+          "path": "04/03.xydcard",
+          "name": "我想玩滑梯"
+        },
+        {
+          "path": "04/04.xydcard",
+          "name": "我想去游泳"
+        },
+        {
+          "path": "04/05.xydcard",
+          "name": "我想吹泡泡"
+        },
+        {
+          "path": "04/06.xydcard",
+          "name": "我想去散步"
+        },
+        {
+          "path": "04/07.xydcard",
+          "name": "我想玩车"
+        },
+        {
+          "path": "04/08.xydcard",
+          "name": "我想玩机器人"
+        },
+        {
+          "path": "04/09.xydcard",
+          "name": "我想玩积木"
+        },
+        {
+          "path": "04/10.xydcard",
+          "name": "我想玩拼图"
+        },
+        {
+          "path": "04/11.xydcard",
+          "name": "我想玩跷跷板"
+        },
+        {
+          "path": "04/12.xydcard",
+          "name": "我想玩球"
+        },
+        {
+          "path": "04/13.xydcard",
+          "name": "我想玩沙子"
+        },
+        {
+          "path": "04/14.xydcard",
+          "name": "我想玩捉迷藏"
+        },
+        {
+          "path": "04/15.xydcard",
+          "name": "我想玩ipad"
+        },
+        {
+          "path": "04/16.xydcard",
+          "name": "我要玩布娃娃"
+        }
+      ],
+      "name": "我想玩"
+    },
+    {
+      "path": "05",
+      "children": [
+        {
+          "path": "05/01.xydcard",
+          "name": "我不喜欢"
+        },
+        {
+          "path": "05/02.xydcard",
+          "name": "我喜欢你"
+        },
+        {
+          "path": "05/03.xydcard",
+          "name": "我想你"
+        },
+        {
+          "path": "05/04.xydcard",
+          "name": "别碰我"
+        },
+        {
+          "path": "05/05.xydcard",
+          "name": "别碰我东西"
+        },
+        {
+          "path": "05/06.xydcard",
+          "name": "停"
+        },
+        {
+          "path": "05/07.xydcard",
+          "name": "你小声点"
+        },
+        {
+          "path": "05/08.xydcard",
+          "name": "你大声点"
+        },
+        {
+          "path": "05/09.xydcard",
+          "name": "好吃"
+        },
+        {
+          "path": "05/10.xydcard",
+          "name": "它是我的"
+        },
+        {
+          "path": "05/11.xydcard",
+          "name": "你别走"
+        },
+        {
+          "path": "05/12.xydcard",
+          "name": "再多陪我一会"
+        },
+        {
+          "path": "05/13.xydcard",
+          "name": "抱抱我"
+        },
+        {
+          "path": "05/14.xydcard",
+          "name": "好玩儿"
+        },
+        {
+          "path": "05/15.xydcard",
+          "name": "你陪我玩"
+        }
+      ],
+      "name": "感情表达"
+    },
+    {
+      "path": "06",
+      "children": [
+        {
+          "path": "06/01.xydcard",
+          "name": "不"
+        },
+        {
+          "path": "06/02.xydcard",
+          "name": "对"
+        },
+        {
+          "path": "06/03.xydcard",
+          "name": "是"
+        },
+        {
+          "path": "06/04.xydcard",
+          "name": "行"
+        },
+        {
+          "path": "06/05.xydcard",
+          "name": "要"
+        },
+        {
+          "path": "06/06.xydcard",
+          "name": "不对"
+        },
+        {
+          "path": "06/07.xydcard",
+          "name": "不行"
+        },
+        {
+          "path": "06/08.xydcard",
+          "name": "不要"
+        },
+        {
+          "path": "06/09.xydcard",
+          "name": "不是"
+        },
+        {
+          "path": "06/10.xydcard",
+          "name": "不想"
+        },
+        {
+          "path": "06/11.xydcard",
+          "name": "我不知道"
+        },
+        {
+          "path": "06/12.xydcard",
+          "name": "我忘了"
+        },
+        {
+          "path": "06/13.xydcard",
+          "name": "我不想说"
+        },
+        {
+          "path": "06/14.xydcard",
+          "name": "我不想做"
+        },
+        {
+          "path": "06/15.xydcard",
+          "name": "哎我在这儿"
+        },
+        {
+          "path": "06/16.xydcard",
+          "name": "我不想去"
+        },
+        {
+          "path": "06/17.xydcard",
+          "name": "您叫我什么事"
+        },
+        {
+          "path": "06/18.xydcard",
+          "name": "我听见了等一下"
+        }
+      ],
+      "name": "回答"
+    },
+    {
+      "path": "07",
+      "children": [
+        {
+          "path": "07/01.xydcard",
+          "name": "太吵了"
+        },
+        {
+          "path": "07/02.xydcard",
+          "name": "太饿了"
+        },
+        {
+          "path": "07/03.xydcard",
+          "name": "太渴了"
+        },
+        {
+          "path": "07/04.xydcard",
+          "name": "太困了"
+        },
+        {
+          "path": "07/05.xydcard",
+          "name": "太累了"
+        },
+        {
+          "path": "07/06.xydcard",
+          "name": "我听不清楚"
+        },
+        {
+          "path": "07/07.xydcard",
+          "name": "我看不清楚"
+        },
+        {
+          "path": "07/08.xydcard",
+          "name": "太冷了"
+        },
+        {
+          "path": "07/09.xydcard",
+          "name": "太热了"
+        },
+        {
+          "path": "07/10.xydcard",
+          "name": "太晒了"
+        },
+        {
+          "path": "07/11.xydcard",
+          "name": "太黑了"
+        },
+        {
+          "path": "07/12.xydcard",
+          "name": "太亮了"
+        },
+        {
+          "path": "07/13.xydcard",
+          "name": "太湿了"
+        },
+        {
+          "path": "07/14.xydcard",
+          "name": "全身不舒服"
+        }
+      ],
+      "name": "感觉不舒服"
+    },
+    {
+      "path": "08",
+      "children": [
+        {
+          "path": "08/01.xydcard",
+          "name": "我很高兴"
+        },
+        {
+          "path": "08/02.xydcard",
+          "name": "我很伤心"
+        },
+        {
+          "path": "08/03.xydcard",
+          "name": "我很生气"
+        },
+        {
+          "path": "08/04.xydcard",
+          "name": "我很兴奋"
+        },
+        {
+          "path": "08/05.xydcard",
+          "name": "我很害怕"
+        },
+        {
+          "path": "08/06.xydcard",
+          "name": "我很自豪"
+        },
+        {
+          "path": "08/07.xydcard",
+          "name": "笑了"
+        },
+        {
+          "path": "08/08.xydcard",
+          "name": "哭了"
+        },
+        {
+          "path": "08/09.xydcard",
+          "name": "我想一个人呆会"
+        },
+        {
+          "path": "08/10.xydcard",
+          "name": "我要找妈妈"
+        },
+        {
+          "path": "08/11.xydcard",
+          "name": "我想回家"
+        }
+      ],
+      "name": "心情"
+    },
+    {
+      "path": "09",
+      "children": [
+        {
+          "path": "09/01.xydcard",
+          "name": "太紧了"
+        },
+        {
+          "path": "09/02.xydcard",
+          "name": "太松了"
+        },
+        {
+          "path": "09/03.xydcard",
+          "name": "我不喜欢这个颜色"
+        },
+        {
+          "path": "09/04.xydcard",
+          "name": "太长了"
+        },
+        {
+          "path": "09/05.xydcard",
+          "name": "太短了"
+        },
+        {
+          "path": "09/06.xydcard",
+          "name": "有东西扎我"
+        }
+      ],
+      "name": "衣服不舒服"
+    },
+    {
+      "path": "10",
+      "children": [
+        {
+          "path": "10/01.xydcard",
+          "name": "他太凶了"
+        },
+        {
+          "path": "10/02.xydcard",
+          "name": "他打我"
+        },
+        {
+          "path": "10/03.xydcard",
+          "name": "他骂我"
+        },
+        {
+          "path": "10/04.xydcard",
+          "name": "他抢我东西"
+        },
+        {
+          "path": "10/05.xydcard",
+          "name": "他推我"
+        },
+        {
+          "path": "10/06.xydcard",
+          "name": "他骗我"
+        },
+        {
+          "path": "10/07.xydcard",
+          "name": "他笑话我"
+        },
+        {
+          "path": "10/08.xydcard",
+          "name": "他咬我"
+        }
+      ],
+      "name": "有人欺负我"
+    },
+    {
+      "path": "11",
+      "children": [
+        {
+          "path": "11/01.xydcard",
+          "name": "不是时候"
+        },
+        {
+          "path": "11/02.xydcard",
+          "name": "太难了"
+        },
+        {
+          "path": "11/03.xydcard",
+          "name": "太容易了"
+        },
+        {
+          "path": "11/04.xydcard",
+          "name": "太无聊了"
+        },
+        {
+          "path": "11/05.xydcard",
+          "name": "我还没准备好"
+        },
+        {
+          "path": "11/06.xydcard",
+          "name": "以前做过了"
+        }
+      ],
+      "name": "我不想做"
+    },
+    {
+      "path": "12",
+      "children": [
+        {
+          "path": "12/01.xydcard",
+          "name": "你把我弄疼了"
+        },
+        {
+          "path": "12/02.xydcard",
+          "name": "我牙疼"
+        },
+        {
+          "path": "12/03.xydcard",
+          "name": "我摔跤了"
+        },
+        {
+          "path": "12/04.xydcard",
+          "name": "我被狗咬了"
+        },
+        {
+          "path": "12/05.xydcard",
+          "name": "我头疼"
+        },
+        {
+          "path": "12/06.xydcard",
+          "name": "我肚子疼"
+        },
+        {
+          "path": "12/07.xydcard",
+          "name": "我屁股疼"
+        },
+        {
+          "path": "12/08.xydcard",
+          "name": "我腿疼"
+        },
+        {
+          "path": "12/09.xydcard",
+          "name": "我手疼"
+        },
+        {
+          "path": "12/10.xydcard",
+          "name": "我胳膊疼"
+        },
+        {
+          "path": "12/11.xydcard",
+          "name": "我耳朵疼"
+        },
+        {
+          "path": "12/12.xydcard",
+          "name": "我眼睛疼"
+        }
+      ],
+      "name": "疼痛"
+    },
+    {
+      "path": "13",
+      "children": [
+        {
+          "path": "13/01.xydcard",
+          "name": "我身上痒"
+        },
+        {
+          "path": "13/02.xydcard",
+          "name": "我被蚊子咬了"
+        },
+        {
+          "path": "13/03.xydcard",
+          "name": "我头痒"
+        },
+        {
+          "path": "13/04.xydcard",
+          "name": "我眼睛痒"
+        },
+        {
+          "path": "13/05.xydcard",
+          "name": "我脚痒"
+        },
+        {
+          "path": "13/06.xydcard",
+          "name": "我耳朵痒"
+        }
+      ],
+      "name": "痒痒"
+    },
+    {
+      "path": "14",
+      "children": [
+        {
+          "path": "14/01.xydcard",
+          "name": "你叫什么名字"
+        },
+        {
+          "path": "14/02.xydcard",
+          "name": "你几岁"
+        },
+        {
+          "path": "14/03.xydcard",
+          "name": "我妈妈在哪儿"
+        },
+        {
+          "path": "14/04.xydcard",
+          "name": "你要带我去哪儿"
+        },
+        {
+          "path": "14/05.xydcard",
+          "name": "你怎么了"
+        },
+        {
+          "path": "14/06.xydcard",
+          "name": "你不舒服吗"
+        },
+        {
+          "path": "14/07.xydcard",
+          "name": "这是什么"
+        },
+        {
+          "path": "14/08.xydcard",
+          "name": "为什么呢"
+        },
+        {
+          "path": "14/09.xydcard",
+          "name": "你去哪儿"
+        },
+        {
+          "path": "14/10.xydcard",
+          "name": "你生气了吗"
+        },
+        {
+          "path": "14/11.xydcard",
+          "name": "你要吗"
+        },
+        {
+          "path": "14/12.xydcard",
+          "name": "你吃吗"
+        },
+        {
+          "path": "14/13.xydcard",
+          "name": "你喝吗"
+        }
+      ],
+      "name": "提问"
+    },
+    {
+      "path": "15",
+      "children": [
+        {
+          "path": "15/01.xydcard",
+          "name": "谢谢"
+        },
+        {
+          "path": "15/02.xydcard",
+          "name": "您好"
+        },
+        {
+          "path": "15/03.xydcard",
+          "name": "再见"
+        },
+        {
+          "path": "15/04.xydcard",
+          "name": "对不起"
+        },
+        {
+          "path": "15/05.xydcard",
+          "name": "没关系"
+        },
+        {
+          "path": "15/06.xydcard",
+          "name": "我错了"
+        },
+        {
+          "path": "15/07.xydcard",
+          "name": "我不是故意的"
+        },
+        {
+          "path": "15/08.xydcard",
+          "name": "我不知道"
+        },
+        {
+          "path": "15/09.xydcard",
+          "name": "请坐"
+        }
+      ],
+      "name": "礼貌用语"
+    },
+    {
+      "path": "16",
+      "children": [
+        {
+          "path": "16/01.xydcard",
+          "name": "我找我妈妈"
+        },
+        {
+          "path": "16/02.xydcard",
+          "name": "你看"
+        },
+        {
+          "path": "16/03.xydcard",
+          "name": "你听"
+        },
+        {
+          "path": "16/04.xydcard",
+          "name": "请再说一遍"
+        },
+        {
+          "path": "16/05.xydcard",
+          "name": "我不会说话"
+        },
+        {
+          "path": "16/06.xydcard",
+          "name": "给你"
+        },
+        {
+          "path": "16/07.xydcard",
+          "name": "你吃"
+        },
+        {
+          "path": "16/08.xydcard",
+          "name": "你喝"
+        },
+        {
+          "path": "16/09.xydcard",
+          "name": "你做"
+        },
+        {
+          "path": "16/10.xydcard",
+          "name": "请你起床"
+        }
+      ],
+      "name": "交流"
+    },
+    {
+      "path": "17",
+      "children": [
+        {
+          "path": "17/01.xydcard",
+          "name": "我想吃饭"
+        },
+        {
+          "path": "17/02.xydcard",
+          "name": "我想喝水"
+        },
+        {
+          "path": "17/03.xydcard",
+          "name": "我吃饱了"
+        },
+        {
+          "path": "17/04.xydcard",
+          "name": "我不吃了"
+        },
+        {
+          "path": "17/05.xydcard",
+          "name": "我不喝了"
+        },
+        {
+          "path": "17/06.xydcard",
+          "name": "我想吃面"
+        },
+        {
+          "path": "17/07.xydcard",
+          "name": "我想吃水果"
+        },
+        {
+          "path": "17/08.xydcard",
+          "name": "我想吃糖"
+        },
+        {
+          "path": "17/09.xydcard",
+          "name": "我想吃饼干"
+        },
+        {
+          "path": "17/10.xydcard",
+          "name": "我想喝果汁"
+        },
+        {
+          "path": "17/11.xydcard",
+          "name": "我想喝牛奶"
+        },
+        {
+          "path": "17/12.xydcard",
+          "name": "我想要吸管"
+        },
+        {
+          "path": "17/13.xydcard",
+          "name": "我想要筷子"
+        },
+        {
+          "path": "17/14.xydcard",
+          "name": "我想要勺子"
+        },
+        {
+          "path": "17/15.xydcard",
+          "name": "我想要碗"
+        }
+      ],
+      "name": "吃喝"
+    },
+    {
+      "path": "18",
+      "children": [
+        {
+          "path": "18/01.xydcard",
+          "name": "衬衣"
+        },
+        {
+          "path": "18/02.xydcard",
+          "name": "短裤"
+        },
+        {
+          "path": "18/03.xydcard",
+          "name": "T恤"
+        },
+        {
+          "path": "18/04.xydcard",
+          "name": "袜子"
+        },
+        {
+          "path": "18/05.xydcard",
+          "name": "内裤"
+        },
+        {
+          "path": "18/06.xydcard",
+          "name": "鞋"
+        },
+        {
+          "path": "18/07.xydcard",
+          "name": "凉鞋"
+        },
+        {
+          "path": "18/08.xydcard",
+          "name": "球鞋"
+        },
+        {
+          "path": "18/09.xydcard",
+          "name": "外套"
+        },
+        {
+          "path": "18/10.xydcard",
+          "name": "秋衣"
+        },
+        {
+          "path": "18/11.xydcard",
+          "name": "长裤"
+        },
+        {
+          "path": "18/12.xydcard",
+          "name": "裙子"
+        },
+        {
+          "path": "18/13.xydcard",
+          "name": "手套"
+        },
+        {
+          "path": "18/14.xydcard",
+          "name": "帽子"
+        },
+        {
+          "path": "18/15.xydcard",
+          "name": "围巾"
+        }
+      ],
+      "name": "穿着"
+    },
+    {
+      "path": "19",
+      "children": [
+        {
+          "path": "19/01.xydcard",
+          "name": "我想看动画片"
+        },
+        {
+          "path": "19/02.xydcard",
+          "name": "我想看喜羊羊"
+        },
+        {
+          "path": "19/03.xydcard",
+          "name": "我想看熊出没"
+        },
+        {
+          "path": "19/04.xydcard",
+          "name": "我想看机器人"
+        },
+        {
+          "path": "19/05.xydcard",
+          "name": "我想看新闻"
+        },
+        {
+          "path": "19/06.xydcard",
+          "name": "我想看广告"
+        }
+      ],
+      "name": "我想看电视"
+    },
+    {
+      "path": "20",
+      "children": [
+        {
+          "path": "20/01.xydcard",
+          "name": "我想认字"
+        },
+        {
+          "path": "20/02.xydcard",
+          "name": "我要写字"
+        },
+        {
+          "path": "20/03.xydcard",
+          "name": "我要画画"
+        },
+        {
+          "path": "20/04.xydcard",
+          "name": "我想认卡片"
+        },
+        {
+          "path": "20/05.xydcard",
+          "name": "我想讲故事"
+        }
+      ],
+      "name": "学习"
+    },
+    {
+      "path": "21",
+      "children": [
+        {
+          "path": "21/01.xydcard",
+          "name": "我想去幼儿园"
+        },
+        {
+          "path": "21/02.xydcard",
+          "name": "我想去游乐场"
+        },
+        {
+          "path": "21/03.xydcard",
+          "name": "我想去动物园"
+        },
+        {
+          "path": "21/04.xydcard",
+          "name": "我想去餐馆"
+        },
+        {
+          "path": "21/05.xydcard",
+          "name": "我想去超市"
+        },
+        {
+          "path": "21/06.xydcard",
+          "name": "我想去学校"
+        },
+        {
+          "path": "21/07.xydcard",
+          "name": "我想去奶奶家"
+        },
+        {
+          "path": "21/08.xydcard",
+          "name": "我想去外公家"
+        },
+        {
+          "path": "21/09.xydcard",
+          "name": "我想去公园"
+        },
+        {
+          "path": "21/10.xydcard",
+          "name": "我想去电影院"
+        },
+        {
+          "path": "21/11.xydcard",
+          "name": "我想去海滩"
+        }
+      ],
+      "name": "我想去"
+    },
+    {
+      "path": "22",
+      "children": [
+        {
+          "path": "22/01.xydcard",
+          "name": "我想坐公交车"
+        },
+        {
+          "path": "22/02.xydcard",
+          "name": "我想坐地铁"
+        },
+        {
+          "path": "22/03.xydcard",
+          "name": "我想坐飞机"
+        },
+        {
+          "path": "22/04.xydcard",
+          "name": "我想坐火车"
+        },
+        {
+          "path": "22/05.xydcard",
+          "name": "我想坐船"
+        }
+      ],
+      "name": "乘坐交通工具"
+    },
+    {
+      "path": "23",
+      "children": [
+        {
+          "path": "23/01.xydcard",
+          "name": "这是酸的"
+        },
+        {
+          "path": "23/02.xydcard",
+          "name": "这是甜的"
+        },
+        {
+          "path": "23/03.xydcard",
+          "name": "这是苦的"
+        },
+        {
+          "path": "23/04.xydcard",
+          "name": "这是辣的"
+        },
+        {
+          "path": "23/05.xydcard",
+          "name": "这是咸的"
+        }
+      ],
+      "name": "味觉"
+    },
+    {
+      "path": "24",
+      "children": [
+        {
+          "path": "24/01.xydcard",
+          "name": "我的玩具丢了"
+        },
+        {
+          "path": "24/02.xydcard",
+          "name": "我的书丢了"
+        },
+        {
+          "path": "24/03.xydcard",
+          "name": "我的车丢了"
+        },
+        {
+          "path": "24/04.xydcard",
+          "name": "我的衣服丢了"
+        }
+      ],
+      "name": "东西丢了"
+    },
+    {
+      "path": "25",
+      "children": [
+        {
+          "path": "25/01.xydcard",
+          "name": "爸爸"
+        },
+        {
+          "path": "25/02.xydcard",
+          "name": "妈妈"
+        },
+        {
+          "path": "25/03.xydcard",
+          "name": "哥哥"
+        },
+        {
+          "path": "25/04.xydcard",
+          "name": "弟弟"
+        },
+        {
+          "path": "25/05.xydcard",
+          "name": "姐姐"
+        },
+        {
+          "path": "25/06.xydcard",
+          "name": "妹妹"
+        },
+        {
+          "path": "25/07.xydcard",
+          "name": "爷爷"
+        },
+        {
+          "path": "25/08.xydcard",
+          "name": "奶奶"
+        },
+        {
+          "path": "25/09.xydcard",
+          "name": "姥爷"
+        },
+        {
+          "path": "25/10.xydcard",
+          "name": "姥姥"
+        }
+      ],
+      "name": "亲人"
+    },
+    {
+      "path": "26",
+      "children": [
+        {
+          "path": "26/01.xydcard",
+          "name": "a"
+        },
+        {
+          "path": "26/02.xydcard",
+          "name": "o"
+        },
+        {
+          "path": "26/03.xydcard",
+          "name": "e"
+        },
+        {
+          "path": "26/04.xydcard",
+          "name": "i"
+        },
+        {
+          "path": "26/05.xydcard",
+          "name": "u"
+        },
+        {
+          "path": "26/06.xydcard",
+          "name": "v"
+        },
+        {
+          "path": "26/07.xydcard",
+          "name": "ai"
+        },
+        {
+          "path": "26/08.xydcard",
+          "name": "ei"
+        },
+        {
+          "path": "26/09.xydcard",
+          "name": "ui"
+        },
+        {
+          "path": "26/10.xydcard",
+          "name": "ao"
+        },
+        {
+          "path": "26/11.xydcard",
+          "name": "ou"
+        },
+        {
+          "path": "26/12.xydcard",
+          "name": "iu"
+        },
+        {
+          "path": "26/13.xydcard",
+          "name": "ie"
+        },
+        {
+          "path": "26/14.xydcard",
+          "name": "ve"
+        },
+        {
+          "path": "26/15.xydcard",
+          "name": "er"
+        },
+        {
+          "path": "26/16.xydcard",
+          "name": "an"
+        },
+        {
+          "path": "26/17.xydcard",
+          "name": "en"
+        },
+        {
+          "path": "26/18.xydcard",
+          "name": "in"
+        },
+        {
+          "path": "26/19.xydcard",
+          "name": "un"
+        },
+        {
+          "path": "26/20.xydcard",
+          "name": "ang"
+        },
+        {
+          "path": "26/21.xydcard",
+          "name": "eng"
+        },
+        {
+          "path": "26/22.xydcard",
+          "name": "ing"
+        },
+        {
+          "path": "26/23.xydcard",
+          "name": "ong"
+        },
+        {
+          "path": "26/24.xydcard",
+          "name": "b"
+        },
+        {
+          "path": "26/25.xydcard",
+          "name": "p"
+        },
+        {
+          "path": "26/26.xydcard",
+          "name": "m"
+        },
+        {
+          "path": "26/27.xydcard",
+          "name": "f"
+        },
+        {
+          "path": "26/28.xydcard",
+          "name": "d"
+        },
+        {
+          "path": "26/29.xydcard",
+          "name": "t"
+        },
+        {
+          "path": "26/30.xydcard",
+          "name": "n"
+        },
+        {
+          "path": "26/31.xydcard",
+          "name": "l"
+        },
+        {
+          "path": "26/32.xydcard",
+          "name": "g"
+        },
+        {
+          "path": "26/33.xydcard",
+          "name": "k"
+        },
+        {
+          "path": "26/34.xydcard",
+          "name": "h"
+        },
+        {
+          "path": "26/35.xydcard",
+          "name": "j"
+        },
+        {
+          "path": "26/36.xydcard",
+          "name": "q"
+        },
+        {
+          "path": "26/37.xydcard",
+          "name": "x"
+        },
+        {
+          "path": "26/38.xydcard",
+          "name": "zh"
+        },
+        {
+          "path": "26/39.xydcard",
+          "name": "ch"
+        },
+        {
+          "path": "26/40.xydcard",
+          "name": "sh"
+        },
+        {
+          "path": "26/41.xydcard",
+          "name": "r"
+        },
+        {
+          "path": "26/42.xydcard",
+          "name": "z"
+        },
+        {
+          "path": "26/43.xydcard",
+          "name": "c"
+        },
+        {
+          "path": "26/44.xydcard",
+          "name": "s"
+        },
+        {
+          "path": "26/45.xydcard",
+          "name": "y"
+        },
+        {
+          "path": "26/46.xydcard",
+          "name": "w"
+        },
+        {
+          "path": "26/47.xydcard",
+          "name": "zhi"
+        },
+        {
+          "path": "26/48.xydcard",
+          "name": "chi"
+        },
+        {
+          "path": "26/49.xydcard",
+          "name": "shi"
+        },
+        {
+          "path": "26/50.xydcard",
+          "name": "ri"
+        },
+        {
+          "path": "26/51.xydcard",
+          "name": "zi"
+        },
+        {
+          "path": "26/52.xydcard",
+          "name": "ci"
+        },
+        {
+          "path": "26/53.xydcard",
+          "name": "si"
+        },
+        {
+          "path": "26/54.xydcard",
+          "name": "yi"
+        },
+        {
+          "path": "26/55.xydcard",
+          "name": "wu"
+        },
+        {
+          "path": "26/56.xydcard",
+          "name": "yu"
+        },
+        {
+          "path": "26/57.xydcard",
+          "name": "ye"
+        },
+        {
+          "path": "26/58.xydcard",
+          "name": "yue"
+        },
+        {
+          "path": "26/59.xydcard",
+          "name": "yuan"
+        },
+        {
+          "path": "26/60.xydcard",
+          "name": "yin"
+        },
+        {
+          "path": "26/61.xydcard",
+          "name": "yun"
+        },
+        {
+          "path": "26/62.xydcard",
+          "name": "ying"
+        }
+      ],
+      "name": "汉语拼音"
+    },
+    {
+      "path": "27",
+      "children": [
+        {
+          "path": "27/01.xydcard",
+          "name": "草莓"
+        },
+        {
+          "path": "27/02.xydcard",
+          "name": "橙子"
+        },
+        {
+          "path": "27/03.xydcard",
+          "name": "梨"
+        },
+        {
+          "path": "27/04.xydcard",
+          "name": "芒果"
+        },
+        {
+          "path": "27/05.xydcard",
+          "name": "苹果"
+        },
+        {
+          "path": "27/06.xydcard",
+          "name": "葡萄"
+        },
+        {
+          "path": "27/07.xydcard",
+          "name": "石榴"
+        },
+        {
+          "path": "27/08.xydcard",
+          "name": "桃子"
+        },
+        {
+          "path": "27/09.xydcard",
+          "name": "西瓜"
+        },
+        {
+          "path": "27/10.xydcard",
+          "name": "香蕉"
+        }
+      ],
+      "name": "水果"
+    },
+    {
+      "path": "28",
+      "children": [
+        {
+          "path": "28/01.xydcard",
+          "name": "大象"
+        },
+        {
+          "path": "28/02.xydcard",
+          "name": "鳄鱼"
+        },
+        {
+          "path": "28/03.xydcard",
+          "name": "狗"
+        },
+        {
+          "path": "28/04.xydcard",
+          "name": "海豹"
+        },
+        {
+          "path": "28/05.xydcard",
+          "name": "海龟"
+        },
+        {
+          "path": "28/06.xydcard",
+          "name": "海星"
+        },
+        {
+          "path": "28/07.xydcard",
+          "name": "猴子"
+        },
+        {
+          "path": "28/08.xydcard",
+          "name": "老虎"
+        },
+        {
+          "path": "28/09.xydcard",
+          "name": "猫"
+        },
+        {
+          "path": "28/10.xydcard",
+          "name": "螃蟹"
+        },
+        {
+          "path": "28/11.xydcard",
+          "name": "鲨鱼"
+        },
+        {
+          "path": "28/12.xydcard",
+          "name": "蛇"
+        },
+        {
+          "path": "28/13.xydcard",
+          "name": "狮子"
+        },
+        {
+          "path": "28/14.xydcard",
+          "name": "鱼"
+        },
+        {
+          "path": "28/15.xydcard",
+          "name": "长颈鹿"
+        }
+      ],
+      "name": "动物"
+    },
+    {
+      "path": "29",
+      "children": [
+        {
+          "path": "29/01.xydcard",
+          "name": "飞机"
+        },
+        {
+          "path": "29/02.xydcard",
+          "name": "公共汽车"
+        },
+        {
+          "path": "29/03.xydcard",
+          "name": "火车"
+        },
+        {
+          "path": "29/04.xydcard",
+          "name": "吉普车"
+        },
+        {
+          "path": "29/05.xydcard",
+          "name": "警车"
+        },
+        {
+          "path": "29/06.xydcard",
+          "name": "救护车"
+        },
+        {
+          "path": "29/07.xydcard",
+          "name": "轮船"
+        },
+        {
+          "path": "29/08.xydcard",
+          "name": "摩托车"
+        },
+        {
+          "path": "29/09.xydcard",
+          "name": "消防车"
+        },
+        {
+          "path": "29/10.xydcard",
+          "name": "小汽车"
+        },
+        {
+          "path": "29/11.xydcard",
+          "name": "自行车"
+        }
+      ],
+      "name": "交通工具"
+    },
+    {
+      "path": "30",
+      "children": [
+        {
+          "path": "30/01.xydcard",
+          "name": "0"
+        },
+        {
+          "path": "30/02.xydcard",
+          "name": "1"
+        },
+        {
+          "path": "30/03.xydcard",
+          "name": "2"
+        },
+        {
+          "path": "30/04.xydcard",
+          "name": "3"
+        },
+        {
+          "path": "30/05.xydcard",
+          "name": "4"
+        },
+        {
+          "path": "30/06.xydcard",
+          "name": "5"
+        },
+        {
+          "path": "30/07.xydcard",
+          "name": "6"
+        },
+        {
+          "path": "30/08.xydcard",
+          "name": "7"
+        },
+        {
+          "path": "30/09.xydcard",
+          "name": "8"
+        },
+        {
+          "path": "30/10.xydcard",
+          "name": "9"
+        },
+        {
+          "path": "30/11.xydcard",
+          "name": "10"
+        }
+      ],
+      "name": "数字"
+    },
+    {
+      "path": "31",
+      "children": [
+        {
+          "path": "31/01.xydcard",
+          "name": "0"
+        },
+        {
+          "path": "31/02.xydcard",
+          "name": "1"
+        },
+        {
+          "path": "31/03.xydcard",
+          "name": "2"
+        },
+        {
+          "path": "31/04.xydcard",
+          "name": "3"
+        },
+        {
+          "path": "31/05.xydcard",
+          "name": "4"
+        },
+        {
+          "path": "31/06.xydcard",
+          "name": "5"
+        },
+        {
+          "path": "31/07.xydcard",
+          "name": "6"
+        },
+        {
+          "path": "31/08.xydcard",
+          "name": "7"
+        },
+        {
+          "path": "31/09.xydcard",
+          "name": "8"
+        },
+        {
+          "path": "31/10.xydcard",
+          "name": "9"
+        },
+        {
+          "path": "31/11.xydcard",
+          "name": "10"
+        },
+        {
+          "path": "31/12.xydcard",
+          "name": "11"
+        },
+        {
+          "path": "31/13.xydcard",
+          "name": "12"
+        },
+        {
+          "path": "31/14.xydcard",
+          "name": "13"
+        },
+        {
+          "path": "31/15.xydcard",
+          "name": "14"
+        },
+        {
+          "path": "31/16.xydcard",
+          "name": "15"
+        },
+        {
+          "path": "31/17.xydcard",
+          "name": "16"
+        },
+        {
+          "path": "31/18.xydcard",
+          "name": "17"
+        },
+        {
+          "path": "31/19.xydcard",
+          "name": "18"
+        },
+        {
+          "path": "31/20.xydcard",
+          "name": "19"
+        },
+        {
+          "path": "31/21.xydcard",
+          "name": "20"
+        },
+        {
+          "path": "31/22.xydcard",
+          "name": "100"
+        },
+        {
+          "path": "31/23.xydcard",
+          "name": "200"
+        },
+        {
+          "path": "31/24.xydcard",
+          "name": "1000"
+        },
+        {
+          "path": "31/25.xydcard",
+          "name": "2000"
+        },
+        {
+          "path": "31/26.xydcard",
+          "name": "10000"
+        },
+        {
+          "path": "31/27.xydcard",
+          "name": "20000"
+        },
+        {
+          "path": "31/28.xydcard",
+          "name": "1000000"
+        },
+        {
+          "path": "31/29.xydcard",
+          "name": "2000000"
+        }
+      ],
+      "name": "Numbers"
+    },
+    {
+      "path": "32",
+      "children": [
+        {
+          "path": "32/01.xydcard",
+          "name": "A"
+        },
+        {
+          "path": "32/02.xydcard",
+          "name": "B"
+        },
+        {
+          "path": "32/03.xydcard",
+          "name": "C"
+        },
+        {
+          "path": "32/04.xydcard",
+          "name": "D"
+        },
+        {
+          "path": "32/05.xydcard",
+          "name": "E"
+        },
+        {
+          "path": "32/06.xydcard",
+          "name": "F"
+        },
+        {
+          "path": "32/07.xydcard",
+          "name": "G"
+        },
+        {
+          "path": "32/08.xydcard",
+          "name": "H"
+        },
+        {
+          "path": "32/09.xydcard",
+          "name": "I"
+        },
+        {
+          "path": "32/10.xydcard",
+          "name": "J"
+        },
+        {
+          "path": "32/11.xydcard",
+          "name": "K"
+        },
+        {
+          "path": "32/12.xydcard",
+          "name": "L"
+        },
+        {
+          "path": "32/13.xydcard",
+          "name": "M"
+        },
+        {
+          "path": "32/14.xydcard",
+          "name": "N"
+        },
+        {
+          "path": "32/15.xydcard",
+          "name": "O"
+        },
+        {
+          "path": "32/16.xydcard",
+          "name": "P"
+        },
+        {
+          "path": "32/17.xydcard",
+          "name": "Q"
+        },
+        {
+          "path": "32/18.xydcard",
+          "name": "R"
+        },
+        {
+          "path": "32/19.xydcard",
+          "name": "S"
+        },
+        {
+          "path": "32/20.xydcard",
+          "name": "T"
+        },
+        {
+          "path": "32/21.xydcard",
+          "name": "U"
+        },
+        {
+          "path": "32/22.xydcard",
+          "name": "V"
+        },
+        {
+          "path": "32/23.xydcard",
+          "name": "W"
+        },
+        {
+          "path": "32/24.xydcard",
+          "name": "X"
+        },
+        {
+          "path": "32/25.xydcard",
+          "name": "Y"
+        },
+        {
+          "path": "32/26.xydcard",
+          "name": "Z"
+        }
+      ],
+      "name": "字母"
+    },
+    {
+      "path": "33",
+      "children": [
+        {
+          "path": "33/01.xydcard",
+          "name": "白色"
+        },
+        {
+          "path": "33/02.xydcard",
+          "name": "橙色"
+        },
+        {
+          "path": "33/03.xydcard",
+          "name": "粉色"
+        },
+        {
+          "path": "33/04.xydcard",
+          "name": "黑色"
+        },
+        {
+          "path": "33/05.xydcard",
+          "name": "红色"
+        },
+        {
+          "path": "33/06.xydcard",
+          "name": "黄色"
+        },
+        {
+          "path": "33/07.xydcard",
+          "name": "灰色"
+        },
+        {
+          "path": "33/08.xydcard",
+          "name": "蓝色"
+        },
+        {
+          "path": "33/09.xydcard",
+          "name": "绿色"
+        },
+        {
+          "path": "33/10.xydcard",
+          "name": "紫色"
+        },
+        {
+          "path": "33/11.xydcard",
+          "name": "棕色"
+        }
+      ],
+      "name": "颜色"
+    },
+    {
+      "path": "34",
+      "children": [
+        {
+          "path": "34/01.xydcard",
+          "name": "black"
+        },
+        {
+          "path": "34/02.xydcard",
+          "name": "blue"
+        },
+        {
+          "path": "34/03.xydcard",
+          "name": "brown"
+        },
+        {
+          "path": "34/04.xydcard",
+          "name": "green"
+        },
+        {
+          "path": "34/05.xydcard",
+          "name": "grey"
+        },
+        {
+          "path": "34/06.xydcard",
+          "name": "orange"
+        },
+        {
+          "path": "34/07.xydcard",
+          "name": "pink"
+        },
+        {
+          "path": "34/08.xydcard",
+          "name": "purple"
+        },
+        {
+          "path": "34/09.xydcard",
+          "name": "red"
+        },
+        {
+          "path": "34/10.xydcard",
+          "name": "white"
+        },
+        {
+          "path": "34/11.xydcard",
+          "name": "yellow"
+        }
+      ],
+      "name": "Colors"
+    },
+    {
+      "path": "35",
+      "children": [
+        {
+          "path": "35/01.xydcard",
+          "name": "半圆形"
+        },
+        {
+          "path": "35/02.xydcard",
+          "name": "菱形"
+        },
+        {
+          "path": "35/03.xydcard",
+          "name": "三角形"
+        },
+        {
+          "path": "35/04.xydcard",
+          "name": "扇形"
+        },
+        {
+          "path": "35/05.xydcard",
+          "name": "梯形"
+        },
+        {
+          "path": "35/06.xydcard",
+          "name": "椭圆形"
+        },
+        {
+          "path": "35/07.xydcard",
+          "name": "五边形"
+        },
+        {
+          "path": "35/08.xydcard",
+          "name": "五角星"
+        },
+        {
+          "path": "35/09.xydcard",
+          "name": "圆"
+        },
+        {
+          "path": "35/10.xydcard",
+          "name": "月牙"
+        },
+        {
+          "path": "35/11.xydcard",
+          "name": "长方形"
+        },
+        {
+          "path": "35/12.xydcard",
+          "name": "正方形"
+        }
+      ],
+      "name": "形状"
+    },
+    {
+      "path": "36",
+      "children": [
+        {
+          "path": "36/01.xydcard",
+          "name": "Circle"
+        },
+        {
+          "path": "36/02.xydcard",
+          "name": "Triangle"
+        },
+        {
+          "path": "36/03.xydcard",
+          "name": "Square"
+        },
+        {
+          "path": "36/04.xydcard",
+          "name": "Rectangle"
+        },
+        {
+          "path": "36/05.xydcard",
+          "name": "Oval"
+        },
+        {
+          "path": "36/06.xydcard",
+          "name": "Diamond"
+        },
+        {
+          "path": "36/07.xydcard",
+          "name": "Star"
+        },
+        {
+          "path": "36/08.xydcard",
+          "name": "SemiCircle"
+        },
+        {
+          "path": "36/09.xydcard",
+          "name": "Crescent"
+        },
+        {
+          "path": "36/10.xydcard",
+          "name": "Pentagon"
+        },
+        {
+          "path": "36/11.xydcard",
+          "name": "Trapezoid"
+        }
+      ],
+      "name": "Shapes"
+    },
+    {
+      "path": "37",
+      "children": [
+        {
+          "path": "37/01.xydcard",
+          "name": "Monday"
+        },
+        {
+          "path": "37/02.xydcard",
+          "name": "Tuesday"
+        },
+        {
+          "path": "37/03.xydcard",
+          "name": "Wednesday"
+        },
+        {
+          "path": "37/04.xydcard",
+          "name": "Thursday"
+        },
+        {
+          "path": "37/05.xydcard",
+          "name": "Friday"
+        },
+        {
+          "path": "37/06.xydcard",
+          "name": "Saturday"
+        },
+        {
+          "path": "37/07.xydcard",
+          "name": "Sunday"
+        }
+      ],
+      "name": "DayOfWeek"
+    },
+    {
+      "path": "38",
+      "children": [
+        {
+          "path": "38/01.xydcard",
+          "name": "January"
+        },
+        {
+          "path": "38/02.xydcard",
+          "name": "February"
+        },
+        {
+          "path": "38/03.xydcard",
+          "name": "March"
+        },
+        {
+          "path": "38/04.xydcard",
+          "name": "April"
+        },
+        {
+          "path": "38/05.xydcard",
+          "name": "May"
+        },
+        {
+          "path": "38/06.xydcard",
+          "name": "June"
+        },
+        {
+          "path": "38/07.xydcard",
+          "name": "July"
+        },
+        {
+          "path": "38/08.xydcard",
+          "name": "August"
+        },
+        {
+          "path": "38/09.xydcard",
+          "name": "September"
+        },
+        {
+          "path": "38/10.xydcard",
+          "name": "October"
+        },
+        {
+          "path": "38/11.xydcard",
+          "name": "November"
+        },
+        {
+          "path": "38/12.xydcard",
+          "name": "December"
+        }
+      ],
+      "name": "MonthOfAYear"
+    },
+    {
+      "path": "39",
+      "children": [
+        {
+          "path": "39/01.xydcard",
+          "name": "上课保持安静"
+        },
+        {
+          "path": "39/02.xydcard",
+          "name": "乘坐公共汽车"
+        },
+        {
+          "path": "39/03.xydcard",
+          "name": "穿衣服"
+        },
+        {
+          "path": "39/04.xydcard",
+          "name": "打招呼"
+        },
+        {
+          "path": "39/05.xydcard",
+          "name": "理发"
+        },
+        {
+          "path": "39/06.xydcard",
+          "name": "生病"
+        },
+        {
+          "path": "39/07.xydcard",
+          "name": "说谢谢"
+        },
+        {
+          "path": "39/08.xydcard",
+          "name": "洗手"
+        },
+        {
+          "path": "39/09.xydcard",
+          "name": "寻求帮助"
+        },
+        {
+          "path": "39/10.xydcard",
+          "name": "在家里吃饭"
+        },
+        {
+          "path": "39/11.xydcard",
+          "name": "怎样拥抱别人"
+        }
+      ],
+      "name": "社交故事"
+    }
+  ],
+  "name": "全部\n"
+}

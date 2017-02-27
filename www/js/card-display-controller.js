@@ -7,6 +7,7 @@ var ydCardDisplayCtrl = angular.module('ydCardDisplayCtrl', []);
 
 ydCardDisplayCtrl.controller('ydCardDisplayCtrl', ['$scope', '$state', 'ydCardService',
   function ($scope, $state, ydCardService) {
+    console.log('ydCardDisplayCtrl');
 
     $scope.isEditMode = false;
     $scope.enterEditMode = function () {

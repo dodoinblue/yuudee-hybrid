@@ -7,6 +7,7 @@ var ydCardService = angular.module('ydCardService', []);
 
 ydCardService.service('ydCardService', ['$q', '$http',
   function ($q, $http) {
+    console.log('ydCardService');
     // Preloaded cards directory.
     var preloaded_cards = {
       "path": "../card-assets",
@@ -201,14 +202,17 @@ ydCardService.service('ydCardService', ['$q', '$http',
       // return getCardListFromPath(cardPath).then(function (data) {
       //   return parseList(data);
       // });
-      // return getWholeCardTree().then(function (wholeTree) {
-      //   return getSubCardsListPromise(wholeTree, cardPath);
-      // }).then(function(data) {
-      //   return parseList(data);
-      // });
-      return getSubCardsListPromise(preloaded_cards, cardPath).then(function (data) {
+      return getWholeCardTree('../card-assets/test.json').then(function (wholeTree) {
+        console.log(wholeTree);
+        return getSubCardsListPromise(wholeTree, cardPath);
+      }).then(function(data) {
         return parseList(data);
       });
+      // return getSubCardsListPromise(preloaded_cards, cardPath).then(function (data) {
+      //   return parseList(data);
+      // });
+
+
     };
 
     var getSubStackList = function (path) {
@@ -344,8 +348,8 @@ ydCardService.service('ydCardService', ['$q', '$http',
     // ### handles server contents   ###
     var server_url = 'http://sg.supersuperstar.com/yuudee/unzipped/';
 
-    var getWholeCardTree = function () {
-      return $http.get(server_url + 'cards.json').then(function (data) {
+    var getWholeCardTree = function (tree_url) {
+      return $http.get(tree_url).then(function (data) {
         return data.data
       }).catch(function (error) {
         console.log('Something wrong with server: ' + error);
