@@ -31,24 +31,23 @@ ydCardDisplayCtrl.controller('ydCardDisplayCtrl', ['$scope', '$state', 'ydCardSe
     }];
 
     var generateClasswareList = function () {
-      ydCardService.getSubStackList('../card-assets').then(function (data) {
+      ydCardService.get1stLevelStackPromise('../card-assets').then(function (data) {
         // console.log(data);
         var classwares = [];
         classwares.push({
           title: "全部",
-          path: "../card-assets"
+          path: "."
         });
         for (var i = 0; i < data.length; i++) {
           var classware = {
-            title: data[i].name.split('-')[1],
-            path: data[i].parent + '/' + data[i].name
+            title: data[i].name,
+            path: data[i].path
           };
           classwares.push(classware);
         }
         $scope.ddSelectOptions = classwares;
       });
     };
-
     generateClasswareList();
 
     $scope.onSelectionChange = function (selection) {
@@ -97,9 +96,7 @@ ydCardDisplayCtrl.controller('ydCardDisplayCtrl', ['$scope', '$state', 'ydCardSe
     $scope.drawers = [];
     $scope.drawers.push({
       drawerid: 0,
-      path: '../card-assets',
+      path: '.',
       isbase: true
     });
   }]);
-
-

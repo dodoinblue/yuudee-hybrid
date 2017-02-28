@@ -99,6 +99,7 @@ ydCardDirective.service('ydCardUtil', ['$window', 'ngAudio', '$timeout', '$inter
 ydCardDirective.controller('ydCardCtrl', ['$scope', '$element', 'ydCardService', 'ydCardUtil',
   function ($scope, $element, ydCardService, ydCardUtil) {
 
+    // placeholder while loading contents
     $scope.card_bg_image = "../img/card_bg.png";
     $scope.image = "../img/dummy_content.jpg";
     $scope.title = "Loading...";
@@ -106,33 +107,6 @@ ydCardDirective.controller('ydCardCtrl', ['$scope', '$element', 'ydCardService',
     $scope.images = ["../img/dummy_content.jpg"];
     $scope.audios = ["../card-assets/dummy_audio.mp3"];
     $scope.isStack = false;
-
-    $scope.$watch('fileName', function (newVal) {
-      var fileName = newVal;
-
-      if (fileName.indexOf('.xydcard', fileName.length - '.xydcard'.length) !== -1) {
-        ydCardService.parseCard($scope.parentPath, fileName).then(function (card) {
-          $scope.title = card.title;
-          $scope.audios = card.audios;
-          $scope.images = card.images;
-          $scope.image = $scope.images[0];
-          // $scope.sound = ngAudio.load(audios[0]);
-        }).catch(function (error) {
-          console.log('error.');
-        });
-      } else {
-        ydCardService.parseStack($scope.parentPath + '/' + fileName).then(function (stack) {
-          $scope.isStack = true;
-          $scope.card_bg_image = "../img/cat_bg.png";
-          $scope.image = stack.cover;
-          $scope.title = stack.title;
-          $scope.path = stack.path;
-
-        }).catch(function (error) {
-          console.log('error.');
-        });
-      }
-    });
 
     $scope.onCardClick = function () {
       if ($scope.isStack) {
@@ -148,9 +122,9 @@ ydCardDirective.controller('ydCardCtrl', ['$scope', '$element', 'ydCardService',
   }
 ]);
 
-ydCardDirective.directive('ydCard', [
+ydCardDirective.directive('ydCard', ['ydCardService',
 
-  function () {
+  function (ydCardService) {
     return {
       restrict: 'AE',
       scope: true,
@@ -159,6 +133,30 @@ ydCardDirective.directive('ydCard', [
       link: function (scope, el, attrs) {
         scope.fileName = attrs.name;
         scope.parentPath = attrs.parent;
+        var data = JSON.parse(attrs.data);
+
+        if (data.isStack) {
+          // this is a stack
+          scope.isStack = true;
+          scope.card_bg_image = "../img/cat_bg.png";
+          scope.image = data.cover ? ydCardService.resRoot + data.cover : "../img/dummy_content.jpg";
+          scope.title = data.name;
+          scope.path = data.path;
+        } else {
+          // this is a card
+          scope.title = data.name;
+          var audios = [];
+          for (var i = 0; i < data.audios.length; i++) {
+            audios.push(ydCardService.resRoot + data.path + '/audios/' + data.audios[i]);
+          }
+          var images = [];
+          for (var i = 0; i < data.images.length; i++) {
+            images.push(ydCardService.resRoot + data.path + '/images/' + data.images[i]);
+          }
+          scope.audios = audios;
+          scope.images = images;
+          scope.image = images[0];
+        }
       },
       controller: 'ydCardCtrl'
     };
