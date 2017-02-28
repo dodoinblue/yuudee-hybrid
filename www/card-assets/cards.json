@@ -1,0 +1,5692 @@
+{
+  "path": ".",
+  "children": [
+    {
+      "path": "01",
+      "children": [
+        {
+          "path": "01/01.xydcard",
+          "name": "帮我擦脸",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "01/02.xydcard",
+          "name": "帮我擦手",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "01/03.xydcard",
+          "name": "帮我擦眼镜",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "01/04.xydcard",
+          "name": "帮我冲马桶",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "01/05.xydcard",
+          "name": "帮我打开",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "01/06.xydcard",
+          "name": "帮我关上",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "01/07.xydcard",
+          "name": "帮我给妈妈打电话",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "01/08.xydcard",
+          "name": "帮我拿过来",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "01/09.xydcard",
+          "name": "帮我梳头",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "01/10.xydcard",
+          "name": "帮我修理好",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "01/11.xydcard",
+          "name": "带我回家",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "01/12.xydcard",
+          "name": "帮我剪指甲",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "我需要帮助",
+      "cover": "01/cover.jpg"
+    },
+    {
+      "path": "02",
+      "children": [
+        {
+          "path": "02/01.xydcard",
+          "name": "我想上厕所",
+          "images": [
+            "1.jpg",
+            "2.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "02/02.xydcard",
+          "name": "我想大便",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "02/03.xydcard",
+          "name": "我想尿尿",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "02/04.xydcard",
+          "name": "我想穿衣服",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "02/05.xydcard",
+          "name": "我想脱衣服",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "02/06.xydcard",
+          "name": "我想剪指甲",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "02/07.xydcard",
+          "name": "我想梳头",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "02/08.xydcard",
+          "name": "我想洗脸",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "02/09.xydcard",
+          "name": "我想洗手",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "02/10.xydcard",
+          "name": "我想刷牙",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "02/11.xydcard",
+          "name": "我想洗澡",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "02/12.xydcard",
+          "name": "我需要纸",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "02/13.xydcard",
+          "name": "我想戴眼镜",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "自理",
+      "cover": "02/cover.jpg"
+    },
+    {
+      "path": "03",
+      "children": [
+        {
+          "path": "03/01.xydcard",
+          "name": "我走丢了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "03/02.xydcard",
+          "name": "请给我妈妈打电话",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "03/03.xydcard",
+          "name": "请送我回家",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "我走丢了",
+      "cover": "03/cover.jpg"
+    },
+    {
+      "path": "04",
+      "children": [
+        {
+          "path": "04/01.xydcard",
+          "name": "我想玩电脑",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "04/02.xydcard",
+          "name": "我想听音乐",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "04/03.xydcard",
+          "name": "我想玩滑梯",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "04/04.xydcard",
+          "name": "我想去游泳",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "04/05.xydcard",
+          "name": "我想吹泡泡",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "04/06.xydcard",
+          "name": "我想去散步",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "04/07.xydcard",
+          "name": "我想玩车",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "04/08.xydcard",
+          "name": "我想玩机器人",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "04/09.xydcard",
+          "name": "我想玩积木",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "04/10.xydcard",
+          "name": "我想玩拼图",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "04/11.xydcard",
+          "name": "我想玩跷跷板",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "04/12.xydcard",
+          "name": "我想玩球",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "04/13.xydcard",
+          "name": "我想玩沙子",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "04/14.xydcard",
+          "name": "我想玩捉迷藏",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "04/15.xydcard",
+          "name": "我想玩ipad",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "04/16.xydcard",
+          "name": "我要玩布娃娃",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "我想玩",
+      "cover": "04/cover.jpg"
+    },
+    {
+      "path": "05",
+      "children": [
+        {
+          "path": "05/01.xydcard",
+          "name": "我不喜欢",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "05/02.xydcard",
+          "name": "我喜欢你",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "05/03.xydcard",
+          "name": "我想你",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "05/04.xydcard",
+          "name": "别碰我",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "05/05.xydcard",
+          "name": "别碰我东西",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "05/06.xydcard",
+          "name": "停",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "05/07.xydcard",
+          "name": "你小声点",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "05/08.xydcard",
+          "name": "你大声点",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "05/09.xydcard",
+          "name": "好吃",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "05/10.xydcard",
+          "name": "它是我的",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "05/11.xydcard",
+          "name": "你别走",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "05/12.xydcard",
+          "name": "再多陪我一会",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "05/13.xydcard",
+          "name": "抱抱我",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "05/14.xydcard",
+          "name": "好玩儿",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "05/15.xydcard",
+          "name": "你陪我玩",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "感情表达",
+      "cover": "05/cover.jpg"
+    },
+    {
+      "path": "06",
+      "children": [
+        {
+          "path": "06/01.xydcard",
+          "name": "不",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/02.xydcard",
+          "name": "对",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/03.xydcard",
+          "name": "是",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/04.xydcard",
+          "name": "行",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/05.xydcard",
+          "name": "要",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/06.xydcard",
+          "name": "不对",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/07.xydcard",
+          "name": "不行",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/08.xydcard",
+          "name": "不要",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/09.xydcard",
+          "name": "不是",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/10.xydcard",
+          "name": "不想",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/11.xydcard",
+          "name": "我不知道",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/12.xydcard",
+          "name": "我忘了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/13.xydcard",
+          "name": "我不想说",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/14.xydcard",
+          "name": "我不想做",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/15.xydcard",
+          "name": "哎我在这儿",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/16.xydcard",
+          "name": "我不想去",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/17.xydcard",
+          "name": "您叫我什么事",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "06/18.xydcard",
+          "name": "我听见了等一下",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "回答",
+      "cover": "06/cover.jpg"
+    },
+    {
+      "path": "07",
+      "children": [
+        {
+          "path": "07/01.xydcard",
+          "name": "太吵了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "07/02.xydcard",
+          "name": "太饿了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "07/03.xydcard",
+          "name": "太渴了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "07/04.xydcard",
+          "name": "太困了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "07/05.xydcard",
+          "name": "太累了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "07/06.xydcard",
+          "name": "我听不清楚",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "07/07.xydcard",
+          "name": "我看不清楚",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "07/08.xydcard",
+          "name": "太冷了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "07/09.xydcard",
+          "name": "太热了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "07/10.xydcard",
+          "name": "太晒了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "07/11.xydcard",
+          "name": "太黑了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "07/12.xydcard",
+          "name": "太亮了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "07/13.xydcard",
+          "name": "太湿了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "07/14.xydcard",
+          "name": "全身不舒服",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "感觉不舒服",
+      "cover": "07/cover.jpg"
+    },
+    {
+      "path": "08",
+      "children": [
+        {
+          "path": "08/01.xydcard",
+          "name": "我很高兴",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "08/02.xydcard",
+          "name": "我很伤心",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "08/03.xydcard",
+          "name": "我很生气",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "08/04.xydcard",
+          "name": "我很兴奋",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "08/05.xydcard",
+          "name": "我很害怕",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "08/06.xydcard",
+          "name": "我很自豪",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "08/07.xydcard",
+          "name": "笑了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "08/08.xydcard",
+          "name": "哭了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "08/09.xydcard",
+          "name": "我想一个人呆会",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "08/10.xydcard",
+          "name": "我要找妈妈",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "08/11.xydcard",
+          "name": "我想回家",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "心情",
+      "cover": "08/cover.jpg"
+    },
+    {
+      "path": "09",
+      "children": [
+        {
+          "path": "09/01.xydcard",
+          "name": "太紧了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "09/02.xydcard",
+          "name": "太松了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "09/03.xydcard",
+          "name": "我不喜欢这个颜色",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "09/04.xydcard",
+          "name": "太长了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "09/05.xydcard",
+          "name": "太短了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "09/06.xydcard",
+          "name": "有东西扎我",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "衣服不舒服",
+      "cover": "09/cover.jpg"
+    },
+    {
+      "path": "10",
+      "children": [
+        {
+          "path": "10/01.xydcard",
+          "name": "他太凶了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "10/02.xydcard",
+          "name": "他打我",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "10/03.xydcard",
+          "name": "他骂我",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "10/04.xydcard",
+          "name": "他抢我东西",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "10/05.xydcard",
+          "name": "他推我",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "10/06.xydcard",
+          "name": "他骗我",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "10/07.xydcard",
+          "name": "他笑话我",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "10/08.xydcard",
+          "name": "他咬我",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "有人欺负我",
+      "cover": "10/cover.jpg"
+    },
+    {
+      "path": "11",
+      "children": [
+        {
+          "path": "11/01.xydcard",
+          "name": "不是时候",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "11/02.xydcard",
+          "name": "太难了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "11/03.xydcard",
+          "name": "太容易了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "11/04.xydcard",
+          "name": "太无聊了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "11/05.xydcard",
+          "name": "我还没准备好",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "11/06.xydcard",
+          "name": "以前做过了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "我不想做",
+      "cover": "11/cover.jpg"
+    },
+    {
+      "path": "12",
+      "children": [
+        {
+          "path": "12/01.xydcard",
+          "name": "你把我弄疼了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "12/02.xydcard",
+          "name": "我牙疼",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "12/03.xydcard",
+          "name": "我摔跤了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "12/04.xydcard",
+          "name": "我被狗咬了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "12/05.xydcard",
+          "name": "我头疼",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "12/06.xydcard",
+          "name": "我肚子疼",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "12/07.xydcard",
+          "name": "我屁股疼",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "12/08.xydcard",
+          "name": "我腿疼",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "12/09.xydcard",
+          "name": "我手疼",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "12/10.xydcard",
+          "name": "我胳膊疼",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "12/11.xydcard",
+          "name": "我耳朵疼",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "12/12.xydcard",
+          "name": "我眼睛疼",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "疼痛",
+      "cover": "12/cover.jpg"
+    },
+    {
+      "path": "13",
+      "children": [
+        {
+          "path": "13/01.xydcard",
+          "name": "我身上痒",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "13/02.xydcard",
+          "name": "我被蚊子咬了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "13/03.xydcard",
+          "name": "我头痒",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "13/04.xydcard",
+          "name": "我眼睛痒",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "13/05.xydcard",
+          "name": "我脚痒",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "13/06.xydcard",
+          "name": "我耳朵痒",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "痒痒",
+      "cover": "13/cover.jpg"
+    },
+    {
+      "path": "14",
+      "children": [
+        {
+          "path": "14/01.xydcard",
+          "name": "你叫什么名字",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "14/02.xydcard",
+          "name": "你几岁",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "14/03.xydcard",
+          "name": "我妈妈在哪儿",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "14/04.xydcard",
+          "name": "你要带我去哪儿",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "14/05.xydcard",
+          "name": "你怎么了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "14/06.xydcard",
+          "name": "你不舒服吗",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "14/07.xydcard",
+          "name": "这是什么",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "14/08.xydcard",
+          "name": "为什么呢",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "14/09.xydcard",
+          "name": "你去哪儿",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "14/10.xydcard",
+          "name": "你生气了吗",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "14/11.xydcard",
+          "name": "你要吗",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "14/12.xydcard",
+          "name": "你吃吗",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "14/13.xydcard",
+          "name": "你喝吗",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "提问",
+      "cover": "14/cover.jpg"
+    },
+    {
+      "path": "15",
+      "children": [
+        {
+          "path": "15/01.xydcard",
+          "name": "谢谢",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "15/02.xydcard",
+          "name": "您好",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "15/03.xydcard",
+          "name": "再见",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "15/04.xydcard",
+          "name": "对不起",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "15/05.xydcard",
+          "name": "没关系",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "15/06.xydcard",
+          "name": "我错了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "15/07.xydcard",
+          "name": "我不是故意的",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "15/08.xydcard",
+          "name": "我不知道",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "15/09.xydcard",
+          "name": "请坐",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "礼貌用语",
+      "cover": "15/cover.jpg"
+    },
+    {
+      "path": "16",
+      "children": [
+        {
+          "path": "16/01.xydcard",
+          "name": "我找我妈妈",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "16/02.xydcard",
+          "name": "你看",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "16/03.xydcard",
+          "name": "你听",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "16/04.xydcard",
+          "name": "请再说一遍",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "16/05.xydcard",
+          "name": "我不会说话",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "16/06.xydcard",
+          "name": "给你",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "16/07.xydcard",
+          "name": "你吃",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "16/08.xydcard",
+          "name": "你喝",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "16/09.xydcard",
+          "name": "你做",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "16/10.xydcard",
+          "name": "请你起床",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "交流",
+      "cover": "16/cover.jpg"
+    },
+    {
+      "path": "17",
+      "children": [
+        {
+          "path": "17/01.xydcard",
+          "name": "我想吃饭",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "17/02.xydcard",
+          "name": "我想喝水",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "17/03.xydcard",
+          "name": "我吃饱了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "17/04.xydcard",
+          "name": "我不吃了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "17/05.xydcard",
+          "name": "我不喝了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "17/06.xydcard",
+          "name": "我想吃面",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "17/07.xydcard",
+          "name": "我想吃水果",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "17/08.xydcard",
+          "name": "我想吃糖",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "17/09.xydcard",
+          "name": "我想吃饼干",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "17/10.xydcard",
+          "name": "我想喝果汁",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "17/11.xydcard",
+          "name": "我想喝牛奶",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "17/12.xydcard",
+          "name": "我想要吸管",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "17/13.xydcard",
+          "name": "我想要筷子",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "17/14.xydcard",
+          "name": "我想要勺子",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "17/15.xydcard",
+          "name": "我想要碗",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "吃喝",
+      "cover": "17/cover.jpg"
+    },
+    {
+      "path": "18",
+      "children": [
+        {
+          "path": "18/01.xydcard",
+          "name": "衬衣",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "18/02.xydcard",
+          "name": "短裤",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "18/03.xydcard",
+          "name": "T恤",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "18/04.xydcard",
+          "name": "袜子",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "18/05.xydcard",
+          "name": "内裤",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "18/06.xydcard",
+          "name": "鞋",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "18/07.xydcard",
+          "name": "凉鞋",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "18/08.xydcard",
+          "name": "球鞋",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "18/09.xydcard",
+          "name": "外套",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "18/10.xydcard",
+          "name": "秋衣",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "18/11.xydcard",
+          "name": "长裤",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "18/12.xydcard",
+          "name": "裙子",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "18/13.xydcard",
+          "name": "手套",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "18/14.xydcard",
+          "name": "帽子",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "18/15.xydcard",
+          "name": "围巾",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "穿着",
+      "cover": "18/cover.jpg"
+    },
+    {
+      "path": "19",
+      "children": [
+        {
+          "path": "19/01.xydcard",
+          "name": "我想看动画片",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "19/02.xydcard",
+          "name": "我想看喜羊羊",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "19/03.xydcard",
+          "name": "我想看熊出没",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "19/04.xydcard",
+          "name": "我想看机器人",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "19/05.xydcard",
+          "name": "我想看新闻",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "19/06.xydcard",
+          "name": "我想看广告",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "我想看电视",
+      "cover": "19/cover.jpg"
+    },
+    {
+      "path": "20",
+      "children": [
+        {
+          "path": "20/01.xydcard",
+          "name": "我想认字",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "20/02.xydcard",
+          "name": "我要写字",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "20/03.xydcard",
+          "name": "我要画画",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "20/04.xydcard",
+          "name": "我想认卡片",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "20/05.xydcard",
+          "name": "我想讲故事",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "学习",
+      "cover": "20/cover.jpg"
+    },
+    {
+      "path": "21",
+      "children": [
+        {
+          "path": "21/01.xydcard",
+          "name": "我想去幼儿园",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "21/02.xydcard",
+          "name": "我想去游乐场",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "21/03.xydcard",
+          "name": "我想去动物园",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "21/04.xydcard",
+          "name": "我想去餐馆",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "21/05.xydcard",
+          "name": "我想去超市",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "21/06.xydcard",
+          "name": "我想去学校",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "21/07.xydcard",
+          "name": "我想去奶奶家",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "21/08.xydcard",
+          "name": "我想去外公家",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "21/09.xydcard",
+          "name": "我想去公园",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "21/10.xydcard",
+          "name": "我想去电影院",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "21/11.xydcard",
+          "name": "我想去海滩",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "我想去",
+      "cover": "21/cover.jpg"
+    },
+    {
+      "path": "22",
+      "children": [
+        {
+          "path": "22/01.xydcard",
+          "name": "我想坐公交车",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "22/02.xydcard",
+          "name": "我想坐地铁",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "22/03.xydcard",
+          "name": "我想坐飞机",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "22/04.xydcard",
+          "name": "我想坐火车",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "22/05.xydcard",
+          "name": "我想坐船",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "乘坐交通工具",
+      "cover": "22/cover.jpg"
+    },
+    {
+      "path": "23",
+      "children": [
+        {
+          "path": "23/01.xydcard",
+          "name": "这是酸的",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "23/02.xydcard",
+          "name": "这是甜的",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "23/03.xydcard",
+          "name": "这是苦的",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "23/04.xydcard",
+          "name": "这是辣的",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "23/05.xydcard",
+          "name": "这是咸的",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "味觉",
+      "cover": "23/cover.jpg"
+    },
+    {
+      "path": "24",
+      "children": [
+        {
+          "path": "24/01.xydcard",
+          "name": "我的玩具丢了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "24/02.xydcard",
+          "name": "我的书丢了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "24/03.xydcard",
+          "name": "我的车丢了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "24/04.xydcard",
+          "name": "我的衣服丢了",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "东西丢了",
+      "cover": "24/cover.jpg"
+    },
+    {
+      "path": "25",
+      "children": [
+        {
+          "path": "25/01.xydcard",
+          "name": "爸爸",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "25/02.xydcard",
+          "name": "妈妈",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "25/03.xydcard",
+          "name": "哥哥",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "25/04.xydcard",
+          "name": "弟弟",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "25/05.xydcard",
+          "name": "姐姐",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "25/06.xydcard",
+          "name": "妹妹",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "25/07.xydcard",
+          "name": "爷爷",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "25/08.xydcard",
+          "name": "奶奶",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "25/09.xydcard",
+          "name": "姥爷",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "25/10.xydcard",
+          "name": "姥姥",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "亲人",
+      "cover": "25/cover.jpg"
+    },
+    {
+      "path": "26",
+      "children": [
+        {
+          "path": "26/01.xydcard",
+          "name": "a",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/02.xydcard",
+          "name": "o",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/03.xydcard",
+          "name": "e",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/04.xydcard",
+          "name": "i",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/05.xydcard",
+          "name": "u",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/06.xydcard",
+          "name": "v",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/07.xydcard",
+          "name": "ai",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/08.xydcard",
+          "name": "ei",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/09.xydcard",
+          "name": "ui",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/10.xydcard",
+          "name": "ao",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/11.xydcard",
+          "name": "ou",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/12.xydcard",
+          "name": "iu",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/13.xydcard",
+          "name": "ie",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/14.xydcard",
+          "name": "ve",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/15.xydcard",
+          "name": "er",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/16.xydcard",
+          "name": "an",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/17.xydcard",
+          "name": "en",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/18.xydcard",
+          "name": "in",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/19.xydcard",
+          "name": "un",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/20.xydcard",
+          "name": "ang",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/21.xydcard",
+          "name": "eng",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/22.xydcard",
+          "name": "ing",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/23.xydcard",
+          "name": "ong",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/24.xydcard",
+          "name": "b",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/25.xydcard",
+          "name": "p",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/26.xydcard",
+          "name": "m",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/27.xydcard",
+          "name": "f",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/28.xydcard",
+          "name": "d",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/29.xydcard",
+          "name": "t",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/30.xydcard",
+          "name": "n",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/31.xydcard",
+          "name": "l",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/32.xydcard",
+          "name": "g",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/33.xydcard",
+          "name": "k",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/34.xydcard",
+          "name": "h",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/35.xydcard",
+          "name": "j",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/36.xydcard",
+          "name": "q",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/37.xydcard",
+          "name": "x",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/38.xydcard",
+          "name": "zh",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/39.xydcard",
+          "name": "ch",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/40.xydcard",
+          "name": "sh",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/41.xydcard",
+          "name": "r",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/42.xydcard",
+          "name": "z",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/43.xydcard",
+          "name": "c",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/44.xydcard",
+          "name": "s",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/45.xydcard",
+          "name": "y",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/46.xydcard",
+          "name": "w",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/47.xydcard",
+          "name": "zhi",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/48.xydcard",
+          "name": "chi",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/49.xydcard",
+          "name": "shi",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/50.xydcard",
+          "name": "ri",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/51.xydcard",
+          "name": "zi",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/52.xydcard",
+          "name": "ci",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/53.xydcard",
+          "name": "si",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/54.xydcard",
+          "name": "yi",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/55.xydcard",
+          "name": "wu",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/56.xydcard",
+          "name": "yu",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/57.xydcard",
+          "name": "ye",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/58.xydcard",
+          "name": "yue",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/59.xydcard",
+          "name": "yuan",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/60.xydcard",
+          "name": "yin",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/61.xydcard",
+          "name": "yun",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "26/62.xydcard",
+          "name": "ying",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "汉语拼音",
+      "cover": "26/cover.jpg"
+    },
+    {
+      "path": "27",
+      "children": [
+        {
+          "path": "27/01.xydcard",
+          "name": "草莓",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "27/02.xydcard",
+          "name": "橙子",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "27/03.xydcard",
+          "name": "梨",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "27/04.xydcard",
+          "name": "芒果",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "27/05.xydcard",
+          "name": "苹果",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "27/06.xydcard",
+          "name": "葡萄",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "27/07.xydcard",
+          "name": "石榴",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "27/08.xydcard",
+          "name": "桃子",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "27/09.xydcard",
+          "name": "西瓜",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "27/10.xydcard",
+          "name": "香蕉",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "水果",
+      "cover": "27/cover.jpg"
+    },
+    {
+      "path": "28",
+      "children": [
+        {
+          "path": "28/01.xydcard",
+          "name": "大象",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "28/02.xydcard",
+          "name": "鳄鱼",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "28/03.xydcard",
+          "name": "狗",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "28/04.xydcard",
+          "name": "海豹",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "28/05.xydcard",
+          "name": "海龟",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "28/06.xydcard",
+          "name": "海星",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "28/07.xydcard",
+          "name": "猴子",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "28/08.xydcard",
+          "name": "老虎",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "28/09.xydcard",
+          "name": "猫",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "28/10.xydcard",
+          "name": "螃蟹",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "28/11.xydcard",
+          "name": "鲨鱼",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "28/12.xydcard",
+          "name": "蛇",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "28/13.xydcard",
+          "name": "狮子",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "28/14.xydcard",
+          "name": "鱼",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "28/15.xydcard",
+          "name": "长颈鹿",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "动物",
+      "cover": "28/cover.jpg"
+    },
+    {
+      "path": "29",
+      "children": [
+        {
+          "path": "29/01.xydcard",
+          "name": "飞机",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "29/02.xydcard",
+          "name": "公共汽车",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "29/03.xydcard",
+          "name": "火车",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "29/04.xydcard",
+          "name": "吉普车",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "29/05.xydcard",
+          "name": "警车",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "29/06.xydcard",
+          "name": "救护车",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "29/07.xydcard",
+          "name": "轮船",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "29/08.xydcard",
+          "name": "摩托车",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "29/09.xydcard",
+          "name": "消防车",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "29/10.xydcard",
+          "name": "小汽车",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "29/11.xydcard",
+          "name": "自行车",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "交通工具",
+      "cover": "29/cover.jpg"
+    },
+    {
+      "path": "30",
+      "children": [
+        {
+          "path": "30/01.xydcard",
+          "name": "0",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "30/02.xydcard",
+          "name": "1",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "30/03.xydcard",
+          "name": "2",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "30/04.xydcard",
+          "name": "3",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "30/05.xydcard",
+          "name": "4",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "30/06.xydcard",
+          "name": "5",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "30/07.xydcard",
+          "name": "6",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "30/08.xydcard",
+          "name": "7",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "30/09.xydcard",
+          "name": "8",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "30/10.xydcard",
+          "name": "9",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "30/11.xydcard",
+          "name": "10",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "数字",
+      "cover": "30/cover.jpg"
+    },
+    {
+      "path": "31",
+      "children": [
+        {
+          "path": "31/01.xydcard",
+          "name": "0",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "31/02.xydcard",
+          "name": "1",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "31/03.xydcard",
+          "name": "2",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "31/04.xydcard",
+          "name": "3",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "31/05.xydcard",
+          "name": "4",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "31/06.xydcard",
+          "name": "5",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "31/07.xydcard",
+          "name": "6",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "31/08.xydcard",
+          "name": "7",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "31/09.xydcard",
+          "name": "8",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "31/10.xydcard",
+          "name": "9",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/11.xydcard",
+          "name": "10",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/12.xydcard",
+          "name": "11",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/13.xydcard",
+          "name": "12",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/14.xydcard",
+          "name": "13",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/15.xydcard",
+          "name": "14",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/16.xydcard",
+          "name": "15",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/17.xydcard",
+          "name": "16",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/18.xydcard",
+          "name": "17",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/19.xydcard",
+          "name": "18",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/20.xydcard",
+          "name": "19",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/21.xydcard",
+          "name": "20",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/22.xydcard",
+          "name": "100",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/23.xydcard",
+          "name": "200",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/24.xydcard",
+          "name": "1000",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/25.xydcard",
+          "name": "2000",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/26.xydcard",
+          "name": "10000",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/27.xydcard",
+          "name": "20000",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/28.xydcard",
+          "name": "1000000",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "31/29.xydcard",
+          "name": "2000000",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "Numbers",
+      "cover": "31/cover.jpg"
+    },
+    {
+      "path": "32",
+      "children": [
+        {
+          "path": "32/01.xydcard",
+          "name": "A",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/02.xydcard",
+          "name": "B",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/03.xydcard",
+          "name": "C",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/04.xydcard",
+          "name": "D",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/05.xydcard",
+          "name": "E",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/06.xydcard",
+          "name": "F",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/07.xydcard",
+          "name": "G",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/08.xydcard",
+          "name": "H",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/09.xydcard",
+          "name": "I",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/10.xydcard",
+          "name": "J",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/11.xydcard",
+          "name": "K",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/12.xydcard",
+          "name": "L",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/13.xydcard",
+          "name": "M",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/14.xydcard",
+          "name": "N",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/15.xydcard",
+          "name": "O",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/16.xydcard",
+          "name": "P",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/17.xydcard",
+          "name": "Q",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/18.xydcard",
+          "name": "R",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/19.xydcard",
+          "name": "S",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/20.xydcard",
+          "name": "T",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/21.xydcard",
+          "name": "U",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/22.xydcard",
+          "name": "V",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/23.xydcard",
+          "name": "W",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/24.xydcard",
+          "name": "X",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/25.xydcard",
+          "name": "Y",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "32/26.xydcard",
+          "name": "Z",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "字母",
+      "cover": "32/cover.jpg"
+    },
+    {
+      "path": "33",
+      "children": [
+        {
+          "path": "33/01.xydcard",
+          "name": "白色",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "33/02.xydcard",
+          "name": "橙色",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "33/03.xydcard",
+          "name": "粉色",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "33/04.xydcard",
+          "name": "黑色",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "33/05.xydcard",
+          "name": "红色",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "33/06.xydcard",
+          "name": "黄色",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "33/07.xydcard",
+          "name": "灰色",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "33/08.xydcard",
+          "name": "蓝色",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "33/09.xydcard",
+          "name": "绿色",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "33/10.xydcard",
+          "name": "紫色",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "33/11.xydcard",
+          "name": "棕色",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "颜色",
+      "cover": "33/cover.jpg"
+    },
+    {
+      "path": "34",
+      "children": [
+        {
+          "path": "34/01.xydcard",
+          "name": "black",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "34/02.xydcard",
+          "name": "blue",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "34/03.xydcard",
+          "name": "brown",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "34/04.xydcard",
+          "name": "green",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "34/05.xydcard",
+          "name": "grey",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "34/06.xydcard",
+          "name": "orange",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "34/07.xydcard",
+          "name": "pink",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "34/08.xydcard",
+          "name": "purple",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "34/09.xydcard",
+          "name": "red",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "34/10.xydcard",
+          "name": "white",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "34/11.xydcard",
+          "name": "yellow",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "Colors",
+      "cover": "34/cover.jpg"
+    },
+    {
+      "path": "35",
+      "children": [
+        {
+          "path": "35/01.xydcard",
+          "name": "半圆形",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "35/02.xydcard",
+          "name": "菱形",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "35/03.xydcard",
+          "name": "三角形",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "35/04.xydcard",
+          "name": "扇形",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "35/05.xydcard",
+          "name": "梯形",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "35/06.xydcard",
+          "name": "椭圆形",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "35/07.xydcard",
+          "name": "五边形",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "35/08.xydcard",
+          "name": "五角星",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "35/09.xydcard",
+          "name": "圆",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "35/10.xydcard",
+          "name": "月牙",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "35/11.xydcard",
+          "name": "长方形",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "35/12.xydcard",
+          "name": "正方形",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "形状",
+      "cover": "35/cover.jpg"
+    },
+    {
+      "path": "36",
+      "children": [
+        {
+          "path": "36/01.xydcard",
+          "name": "Circle",
+          "images": [
+            "01.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "36/02.xydcard",
+          "name": "Triangle",
+          "images": [
+            "01.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "36/03.xydcard",
+          "name": "Square",
+          "images": [
+            "01.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "36/04.xydcard",
+          "name": "Rectangle",
+          "images": [
+            "01.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "36/05.xydcard",
+          "name": "Oval",
+          "images": [
+            "01.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "36/06.xydcard",
+          "name": "Diamond",
+          "images": [
+            "01.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "36/07.xydcard",
+          "name": "Star",
+          "images": [
+            "01.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "36/08.xydcard",
+          "name": "SemiCircle",
+          "images": [
+            "01.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "36/09.xydcard",
+          "name": "Crescent",
+          "images": [
+            "01.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "36/10.xydcard",
+          "name": "Pentagon",
+          "images": [
+            "01.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        },
+        {
+          "path": "36/11.xydcard",
+          "name": "Trapezoid",
+          "images": [
+            "01.jpg"
+          ],
+          "audios": [
+            "01.mp3"
+          ]
+        }
+      ],
+      "name": "Shapes",
+      "cover": "36/cover.jpg"
+    },
+    {
+      "path": "37",
+      "children": [
+        {
+          "path": "37/01.xydcard",
+          "name": "Monday",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "37/02.xydcard",
+          "name": "Tuesday",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "37/03.xydcard",
+          "name": "Wednesday",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "37/04.xydcard",
+          "name": "Thursday",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "37/05.xydcard",
+          "name": "Friday",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "37/06.xydcard",
+          "name": "Saturday",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "37/07.xydcard",
+          "name": "Sunday",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "DayOfWeek",
+      "cover": "37/cover.jpg"
+    },
+    {
+      "path": "38",
+      "children": [
+        {
+          "path": "38/01.xydcard",
+          "name": "January",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "38/02.xydcard",
+          "name": "February",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "38/03.xydcard",
+          "name": "March",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "38/04.xydcard",
+          "name": "April",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "38/05.xydcard",
+          "name": "May",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "38/06.xydcard",
+          "name": "June",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "38/07.xydcard",
+          "name": "July",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "38/08.xydcard",
+          "name": "August",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "38/09.xydcard",
+          "name": "September",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "38/10.xydcard",
+          "name": "October",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "38/11.xydcard",
+          "name": "November",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        },
+        {
+          "path": "38/12.xydcard",
+          "name": "December",
+          "images": [
+            "1.jpg"
+          ],
+          "audios": [
+            "1.mp3"
+          ]
+        }
+      ],
+      "name": "MonthOfAYear",
+      "cover": "38/cover.jpg"
+    },
+    {
+      "path": "39",
+      "children": [
+        {
+          "path": "39/01.xydcard",
+          "name": "上课保持安静",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg",
+            "6.jpg"
+          ],
+          "audios": [
+            "1.mp3",
+            "2.mp3",
+            "3.mp3",
+            "4.mp3",
+            "5.mp3",
+            "6.mp3"
+          ]
+        },
+        {
+          "path": "39/02.xydcard",
+          "name": "乘坐公共汽车",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg"
+          ],
+          "audios": [
+            "1.mp3",
+            "2.mp3",
+            "3.mp3",
+            "4.mp3",
+            "5.mp3"
+          ]
+        },
+        {
+          "path": "39/03.xydcard",
+          "name": "穿衣服",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg"
+          ],
+          "audios": [
+            "1.mp3",
+            "2.mp3",
+            "3.mp3",
+            "4.mp3",
+            "5.mp3"
+          ]
+        },
+        {
+          "path": "39/04.xydcard",
+          "name": "打招呼",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg",
+            "6.jpg"
+          ],
+          "audios": [
+            "1.mp3",
+            "2.mp3",
+            "3.mp3",
+            "4.mp3",
+            "5.mp3",
+            "6.mp3"
+          ]
+        },
+        {
+          "path": "39/05.xydcard",
+          "name": "理发",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg"
+          ],
+          "audios": [
+            "1.mp3",
+            "2.mp3",
+            "3.mp3",
+            "4.mp3",
+            "5.mp3"
+          ]
+        },
+        {
+          "path": "39/06.xydcard",
+          "name": "生病",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg"
+          ],
+          "audios": [
+            "1.mp3",
+            "2.mp3",
+            "3.mp3",
+            "4.mp3",
+            "5.mp3"
+          ]
+        },
+        {
+          "path": "39/07.xydcard",
+          "name": "说谢谢",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg"
+          ],
+          "audios": [
+            "1.mp3",
+            "2.mp3",
+            "3.mp3",
+            "4.mp3",
+            "5.mp3"
+          ]
+        },
+        {
+          "path": "39/08.xydcard",
+          "name": "洗手",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg"
+          ],
+          "audios": [
+            "1.mp3",
+            "2.mp3",
+            "3.mp3",
+            "4.mp3",
+            "5.mp3"
+          ]
+        },
+        {
+          "path": "39/09.xydcard",
+          "name": "寻求帮助",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg"
+          ],
+          "audios": [
+            "1.mp3",
+            "2.mp3",
+            "3.mp3",
+            "4.mp3",
+            "5.mp3"
+          ]
+        },
+        {
+          "path": "39/10.xydcard",
+          "name": "在家里吃饭",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg"
+          ],
+          "audios": [
+            "1.mp3",
+            "2.mp3",
+            "3.mp3",
+            "4.mp3",
+            "5.mp3"
+          ]
+        },
+        {
+          "path": "39/11.xydcard",
+          "name": "怎样拥抱别人",
+          "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg"
+          ],
+          "audios": [
+            "1.mp3",
+            "2.mp3",
+            "3.mp3",
+            "4.mp3",
+            "5.mp3"
+          ]
+        }
+      ],
+      "name": "社交故事"
+    }
+  ]
+}
