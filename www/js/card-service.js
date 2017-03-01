@@ -104,13 +104,13 @@ ydCardService.service('ydCardService', ['$q', '$http',
       return cards;
     };
 
-    var promise = $http.get('../card-assets/cards.json').success(function (data) {
+    var promise = $http.get('card-assets/cards.json').success(function (data) {
       preloaded_cards = data;
     });
 
     // Exports:
     this.promise = promise;
-    this.resRoot = "../card-assets/";
+    this.resRoot = "card-assets/";
     this.loadAndParseCardFromPath = loadAndParseCardFromPath;
     this.get1stLevelStackPromise = get1stLevelStackPromise;
 

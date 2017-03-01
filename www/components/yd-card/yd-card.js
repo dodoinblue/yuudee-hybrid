@@ -100,12 +100,12 @@ ydCardDirective.controller('ydCardCtrl', ['$scope', '$element', 'ydCardService',
   function ($scope, $element, ydCardService, ydCardUtil) {
 
     // placeholder while loading contents
-    $scope.card_bg_image = "../img/card_bg.png";
-    $scope.image = "../img/dummy_content.jpg";
+    $scope.card_bg_image = "img/card_bg.png";
+    $scope.image = "img/dummy_content.jpg";
     $scope.title = "Loading...";
 
-    $scope.images = ["../img/dummy_content.jpg"];
-    $scope.audios = ["../card-assets/dummy_audio.mp3"];
+    $scope.images = ["img/dummy_content.jpg"];
+    $scope.audios = ["card-assets/dummy_audio.mp3"];
     $scope.isStack = false;
 
     $scope.onCardClick = function () {
@@ -138,8 +138,8 @@ ydCardDirective.directive('ydCard', ['ydCardService',
         if (data.isStack) {
           // this is a stack
           scope.isStack = true;
-          scope.card_bg_image = "../img/cat_bg.png";
-          scope.image = data.cover ? ydCardService.resRoot + data.cover : "../img/dummy_content.jpg";
+          scope.card_bg_image = "img/cat_bg.png";
+          scope.image = data.cover ? ydCardService.resRoot + data.cover : "img/dummy_content.jpg";
           scope.title = data.name;
           scope.path = data.path;
         } else {
